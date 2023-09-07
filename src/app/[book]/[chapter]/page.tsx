@@ -5,6 +5,14 @@ import { BibleBook, Verse } from "@/lib/types";
 import path from "path";
 import Verses from "@/components/Verses";
 
+export async function generateMetadata({ params }: { params: VerseParams }) {
+  const book = findBookByNormalizedTitle(params.book);
+  return {
+    title: `${book?.title} ${params.chapter}`,
+    description: `Leia ${book?.title} ${params.chapter} na Bíblia A Mensagem online. Navegue pelos versículos e capítulos para encontrar orientação e inspiração nas palavras de Deus.`,
+  };
+}
+
 async function getVerses(bookName: string, chapter: number) {
   const isOldTestament = BibleBooks.oldTestament.some(
     (book: BibleBook) => book.normalizedTitle === bookName

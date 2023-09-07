@@ -1,10 +1,14 @@
-"use client";
 import { formatChapterAmountText } from "@/lib/utils";
 import clsx from "clsx";
 import { ArrowUpRightIcon } from "lucide-react";
 import Link from "next/link";
 import { BibleBook } from "@/lib/types";
 import { BibleBooks } from "@/data/bible-books";
+
+export const metadata = {
+  description:
+    "Leia e navegue pela Bíblia A Mensagem online. Explore ensinamentos e mensagens divinas que orientam e inspiram.",
+};
 
 function BibleBooksList({ books }: { books: BibleBook[] }) {
   return (

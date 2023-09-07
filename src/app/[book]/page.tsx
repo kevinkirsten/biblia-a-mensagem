@@ -5,6 +5,19 @@ import { findBookByNormalizedTitle } from "@/lib/utils";
 import { ArrowUpRightIcon } from "lucide-react";
 import clsx from "clsx";
 
+export async function generateMetadata({
+  params,
+}: {
+  params: { book: string };
+}) {
+  const book = findBookByNormalizedTitle(params.book);
+
+  return {
+    title: book?.title,
+    description: `Leia o livro de ${book?.title} na Bíblia A Mensagem online. Navegue pelos capítulos para encontrar orientação, sabedoria e inspiração na palavra de Deus.`,
+  };
+}
+
 export async function generateStaticParams() {
   return AllBibleBooks.map((book: BibleBook) => ({
     book: book.normalizedTitle,
