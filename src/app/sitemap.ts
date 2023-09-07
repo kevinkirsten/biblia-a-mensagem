@@ -20,14 +20,14 @@ type Sitemap = Array<{
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticParams = generateStaticParams();
 
-  const versesPages: Sitemap = staticParams.map((params) => ({
+  const chaptersPages: Sitemap = staticParams.map((params) => ({
     url: `${baseUrl}/${params.book}/${params.chapter}`,
     lastModified: new Date(),
     changeFrequency: "daily",
     priority: 0.8,
   }));
 
-  const chaptersPages: Sitemap = AllBibleBooks.map((book) => ({
+  const booksPages: Sitemap = AllBibleBooks.map((book) => ({
     url: `${baseUrl}/${book.normalizedTitle}`,
     lastModified: new Date(),
     changeFrequency: "daily",
@@ -55,5 +55,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  return [...staticPages, ...chaptersPages, ...versesPages];
+  return [...staticPages, ...chaptersPages, ...booksPages];
 }
