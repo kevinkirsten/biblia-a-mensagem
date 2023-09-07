@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Button } from "@/components/Button";
 
 export default function NotFound() {
   return (
@@ -30,14 +31,10 @@ export default function NotFound() {
             </strong>
           </figcaption>
         </figure>
-        <div className="mt-10 flex items-center justify-start gap-x-6">
-          <Link
-            href="/"
-            type="button"
-            className="relative inline-flex items-center rounded-md bg-gray-100 px-3 py-2 text-sm font-medium text-gray-900 ring-1 ring-gray-200 hover:bg-gray-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:bg-gray-700 dark:text-white dark:ring-gray-600 dark:hover:bg-gray-500 dark:focus-visible:outline-indigo-500"
-          >
-            Voltar para o início
-          </Link>
+        <div className="mt-10 flex flex-col items-start gap-2">
+          <Button variant="outline" asChild>
+            <Link href="/">Voltar para o início</Link>
+          </Button>
         </div>
       </div>
     </main>

@@ -56,7 +56,7 @@ export default function Sidebar({
                         src="/images/bible.svg"
                         alt="Bíblia A Mensagem"
                       />
-                      <h2 className="items-center text-center text-sm font-semibold text-gray-700 dark:text-white md:flex md:text-base">
+                      <h2 className="items-center text-center text-sm font-semibold text-gray-900 dark:text-white md:flex md:text-base">
                         Bíblia A Mensagem
                       </h2>
                     </Link>

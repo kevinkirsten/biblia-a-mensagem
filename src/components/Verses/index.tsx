@@ -4,7 +4,7 @@ import { ArrowUpToLine, Copy } from "lucide-react";
 import { BibleBook, Verse } from "@/lib/types";
 import { copyTextToClipboard } from "@/lib/utils";
 import Link from "next/link";
-import clsx from "clsx";
+import { Button } from "@/components/Button";
 
 export default function Verses({
   book,
@@ -74,29 +74,19 @@ export default function Verses({
           </p>
         </div>
         <div className="flex flex-1 justify-between gap-2 sm:justify-end">
-          <span title="Voltar para o topo" onClick={scrollToTop}>
-            <ArrowUpToLine className="h-9 w-9 cursor-pointer rounded-md bg-gray-100 p-2 text-gray-900 ring-1 ring-gray-200 hover:bg-gray-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:bg-gray-700 dark:text-white dark:ring-gray-600 dark:hover:bg-gray-500 dark:focus-visible:outline-indigo-500" />
-          </span>
-          <Link
-            href={previousBookUrl}
-            scroll={previousBookExists}
-            className={clsx(
-              "relative inline-flex items-center rounded-md bg-gray-100 px-3 py-2 text-sm font-medium text-gray-900 ring-1 ring-gray-200 hover:bg-gray-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:bg-gray-700 dark:text-white dark:ring-gray-600 dark:hover:bg-gray-500 dark:focus-visible:outline-indigo-500",
-              { "cursor-not-allowed": !previousBookExists }
-            )}
+          <Button
+            variant="outline"
+            title="Voltar para o topo"
+            onClick={scrollToTop}
           >
-            Anterior
-          </Link>
-          <Link
-            href={nextBookUrl}
-            scroll={nextBookExists}
-            className={clsx(
-              "relative inline-flex items-center rounded-md bg-gray-100 px-3 py-2 text-sm font-medium text-gray-900 ring-1 ring-gray-200 hover:bg-gray-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:bg-gray-700 dark:text-white dark:ring-gray-600 dark:hover:bg-gray-500 dark:focus-visible:outline-indigo-500",
-              { "cursor-not-allowed": !nextBookExists }
-            )}
-          >
-            Próximo2
-          </Link>
+            <ArrowUpToLine className="h-5 w-5" />
+          </Button>
+          <Button variant="outline" disabled={!previousBookExists}>
+            <Link href={previousBookUrl}>Anterior</Link>
+          </Button>
+          <Button variant="outline" disabled={!nextBookExists}>
+            <Link href={nextBookUrl}>Próximo</Link>
+          </Button>
         </div>
       </nav>
     </>

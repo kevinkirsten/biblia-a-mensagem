@@ -3,6 +3,7 @@
 import { useNavigationContext } from "@/contexts/NavigationContext";
 import Link from "next/link";
 import { SVGProps } from "react";
+import { Button } from "@/components/Button";
 
 const GitHubIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
@@ -28,23 +29,29 @@ export default function Footer() {
         >
           {navigation.map(({ title, href }) => (
             <div key={title} className="pb-6">
-              <Link
-                href={href}
-                className="rounded-lg text-sm leading-6 text-gray-600 hover:text-gray-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:text-gray-300 dark:hover:text-white dark:focus-visible:outline-indigo-500"
+              <Button
+                variant="ghost"
+                className="text-gray-600 dark:text-gray-900"
+                asChild
               >
-                {title}
-              </Link>
+                <Link href={href}>{title}</Link>
+              </Button>
             </div>
           ))}
         </nav>
         <div className="flex justify-center space-x-10">
-          <Link
-            href="/"
-            className="rounded-lg text-gray-400 hover:text-gray-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:hover:text-gray-300 dark:focus-visible:outline-indigo-500"
+          <Button
+            variant="ghost"
+            title="GitHub do projeto"
+            className="text-gray-600 dark:text-gray-900"
           >
-            <span className="sr-only">GitHub</span>
-            <GitHubIcon className="h-6 w-6" aria-hidden="true" />
-          </Link>
+            <Link
+              href={`${process.env.NEXT_PUBLIC_GITHUB_URL}`}
+              target="_blank"
+            >
+              <GitHubIcon className="h-6 w-6" />
+            </Link>
+          </Button>
         </div>
         <p className="text-center text-xs leading-5 text-gray-500 dark:text-gray-400">
           &copy; {currentYear} Bíblia A Mensagem Online. Todos os direitos
