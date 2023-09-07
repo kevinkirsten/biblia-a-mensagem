@@ -1,6 +1,6 @@
 import { type ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
-import { BibleBooks } from "@/data/bible-books";
+import { AllBibleBooks } from "@/data/bible-books";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -28,13 +28,8 @@ export function normalizeText(bookName: string) {
     .replace(/[\u0300-\u036f]/g, "");
 }
 
-export const allBibleBooks = [
-  ...BibleBooks.oldTestament,
-  ...BibleBooks.newTestament,
-];
-
 export function findBookByNormalizedTitle(normalizedTitle: string) {
-  return allBibleBooks.find((book) => book.normalizedTitle === normalizedTitle);
+  return AllBibleBooks.find((book) => book.normalizedTitle === normalizedTitle);
 }
 
 export async function copyTextToClipboard(text: string) {

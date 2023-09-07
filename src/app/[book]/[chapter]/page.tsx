@@ -1,6 +1,6 @@
-import { allBibleBooks, findBookByNormalizedTitle } from "@/lib/utils";
+import { findBookByNormalizedTitle } from "@/lib/utils";
 import * as fs from "fs";
-import { BibleBooks } from "@/data/bible-books";
+import { AllBibleBooks, BibleBooks } from "@/data/bible-books";
 import { BibleBook, Verse } from "@/lib/types";
 import path from "path";
 import Verses from "@/components/Verses";
@@ -34,10 +34,10 @@ export interface VerseParams {
   chapter: string;
 }
 
-export async function generateStaticParams() {
+export function generateStaticParams() {
   const allParams: VerseParams[] = [];
 
-  for (const book of allBibleBooks) {
+  for (const book of AllBibleBooks) {
     for (let i = 1; i <= book.chaptersCount; i++) {
       allParams.push({
         book: book.normalizedTitle,

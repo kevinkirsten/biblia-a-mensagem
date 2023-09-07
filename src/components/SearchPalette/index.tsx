@@ -1,9 +1,10 @@
 import { Dispatch, Fragment, SetStateAction, useState } from "react";
 import { MagnifyingGlassIcon } from "@heroicons/react/20/solid";
 import { Combobox, Dialog, Transition } from "@headlessui/react";
-import { allBibleBooks, normalizeText } from "@/lib/utils";
+import { normalizeText } from "@/lib/utils";
 import { useRouter } from "next/navigation";
 import clsx from "clsx";
+import { AllBibleBooks } from "@/data/bible-books";
 
 export default function SearchPalette({
   open,
@@ -20,7 +21,7 @@ export default function SearchPalette({
   const filteredBook =
     query === ""
       ? []
-      : allBibleBooks.filter((book) => {
+      : AllBibleBooks.filter((book) => {
           return book.normalizedTitle.includes(normalizeText(query));
         });
 

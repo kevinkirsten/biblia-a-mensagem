@@ -82,3 +82,8 @@ export const BibleBooks = {
     { title: "Apocalipse", normalizedTitle: "apocalipse", chaptersCount: 22 },
   ],
 };
+
+export const AllBibleBooks = [
+  ...BibleBooks.oldTestament,
+  ...BibleBooks.newTestament,
+];

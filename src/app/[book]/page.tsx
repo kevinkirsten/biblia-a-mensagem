@@ -1,14 +1,12 @@
-import { BibleBooks } from "@/data/bible-books";
+import { AllBibleBooks } from "@/data/bible-books";
 import { BibleBook } from "@/lib/types";
 import Link from "next/link";
 import { findBookByNormalizedTitle } from "@/lib/utils";
 import { ArrowUpRightIcon } from "lucide-react";
 import clsx from "clsx";
 
-const bibleBooks = [...BibleBooks.oldTestament, ...BibleBooks.newTestament];
-
 export async function generateStaticParams() {
-  return bibleBooks.map((book: BibleBook) => ({
+  return AllBibleBooks.map((book: BibleBook) => ({
     book: book.normalizedTitle,
   }));
 }
