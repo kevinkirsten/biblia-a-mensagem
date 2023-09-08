@@ -7,5 +7,17 @@ export const metadata: Metadata = {
 };
 
 export default function Sobre() {
-  return <div>Sobre</div>;
+  return (
+    <div>
+      <h1 className="text-center text-xl font-semibold tracking-tight dark:text-white sm:text-2xl">
+        Sobre [Em Construção]
+      </h1>
+      <br />
+      <p>
+        Estamos trabalhando para fornecer mais informações sobre o projeto
+        Bíblia A Mensagem online. Volte em breve para aprender mais sobre o
+        início do projeto, nossa visão e missão.
+      </p>
+    </div>
+  );
 }

@@ -7,5 +7,18 @@ export const metadata: Metadata = {
 };
 
 export default function Contribuir() {
-  return <div>Contribuir</div>;
+  return (
+    <div>
+      <h1 className="text-center text-xl font-semibold tracking-tight dark:text-white sm:text-2xl">
+        Contribuir [Em Construção]
+      </h1>
+      <br />
+      <p>
+        Estamos atualizando esta página com diversas maneiras pelas quais você
+        pode contribuir para o projeto Bíblia A Mensagem online. Em breve você
+        poderá comprar a versão física da Bíblia A Mensagem, ou contribuir com
+        doações para ajudar a manter este recurso acessível a todos.
+      </p>
+    </div>
+  );
 }
