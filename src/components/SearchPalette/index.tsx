@@ -58,7 +58,7 @@ export default function SearchPalette({
             <Dialog.Panel className="mx-auto max-w-xl transform divide-y divide-gray-100 overflow-hidden rounded-xl bg-white shadow-2xl ring-1 ring-black ring-opacity-5 transition-all dark:divide-gray-600 dark:bg-gray-900 dark:ring-gray-600">
               <Combobox
                 onChange={(bookName: string) => {
-                  router.push(bookName);
+                  router.push(`/${bookName}`);
                   setOpen(false);
                 }}
               >
