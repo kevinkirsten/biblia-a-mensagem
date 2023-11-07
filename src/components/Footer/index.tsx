@@ -31,7 +31,7 @@ export default function Footer() {
             <div key={title} className="pb-6">
               <Button
                 variant="ghost"
-                className="text-gray-600 dark:text-gray-900"
+                className="text-gray-600 dark:text-white"
                 asChild
               >
                 <Link href={href}>{title}</Link>
@@ -43,7 +43,7 @@ export default function Footer() {
           <Button
             variant="ghost"
             title="GitHub do projeto"
-            className="text-gray-600 dark:text-gray-900"
+            className="text-gray-600 dark:text-white"
           >
             <Link
               href={`${process.env.NEXT_PUBLIC_GITHUB_URL}`}
