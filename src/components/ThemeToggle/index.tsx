@@ -19,8 +19,6 @@ export default function ThemeToggle({
   return (
     <button
       onClick={() => {
-        console.log(`theme ${theme}`);
-        console.log(`systemTheme ${systemTheme}`);
         setTheme(lightTheme ? "dark" : "light");
       }}
       className={cn(
