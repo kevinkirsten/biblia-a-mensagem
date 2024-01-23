@@ -24,7 +24,7 @@
     "framer-motion": "^10.16.1",
     "heroicons": "^2.0.18",
     "lucide-react": "^0.263.1",
-    "next": "13.4.19",
+    "next": "14.1.0",
     "next-themes": "^0.2.1",
     "postcss": "8.4.33",
     "prettier": "^3.2.4",
