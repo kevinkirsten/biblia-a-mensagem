@@ -1,10 +1,11 @@
 "use client";
 
-import { ArrowUpToLine, Copy } from "lucide-react";
+import { ArrowUpToLine, Copy, Check } from "lucide-react";
 import { BibleBook, Verse } from "@/lib/types";
 import { copyTextToClipboard } from "@/lib/utils";
 import Link from "next/link";
 import { Button } from "@/components/Button";
+import { useState } from "react";
 
 export default function Verses({
   book,
@@ -15,6 +16,7 @@ export default function Verses({
   chapter: number;
   verses: Verse[];
 }) {
+  const [copiedVerse, setCopiedVerse] = useState("");
   const previousBookExists = Number(chapter) > 1;
   const nextBookExists = Number(chapter) < book.chaptersCount;
 
@@ -28,6 +30,22 @@ export default function Verses({
 
   function scrollToTop() {
     window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  function handleCopyTextToClipboard(
+    verseContent: string,
+    bookTitle: string,
+    chapterNumber: number,
+    verseNumber: string,
+  ) {
+    copyTextToClipboard(
+      `${verseContent} ${bookTitle} ${chapterNumber}:${verseNumber} (MSG)`,
+    );
+    setCopiedVerse(verseNumber);
+
+    setTimeout(() => {
+      setCopiedVerse("");
+    }, 3000);
   }
 
   return (
@@ -51,14 +69,22 @@ export default function Verses({
                 {verse.number}
               </sup>
               {verse.content}
-              <Copy
-                onClick={() =>
-                  copyTextToClipboard(
-                    `${verse.content} ${book.title} ${chapter}:${verse.number} (MSG)`
-                  )
-                }
-                className="float-right my-1 inline-block h-5 w-5 cursor-pointer text-gray-400 hover:text-gray-500 dark:text-gray-600 dark:hover:text-gray-400"
-              />
+
+              {copiedVerse === verse.number ? (
+                <Check className="float-right my-1 inline-block h-5 w-5 cursor-pointer text-emerald-600" />
+              ) : (
+                <Copy
+                  onClick={() =>
+                    handleCopyTextToClipboard(
+                      verse.content,
+                      book.title,
+                      chapter,
+                      verse.number,
+                    )
+                  }
+                  className="float-right my-1 inline-block h-5 w-5 cursor-pointer text-gray-400 hover:text-gray-500 dark:text-gray-600 dark:hover:text-gray-400"
+                />
+              )}
             </p>
           </section>
         ))}
