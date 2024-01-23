@@ -1,14 +1,19 @@
 "use client";
 
-import {BibleBook, Verse} from "@/lib/types";
-import {copyTextToClipboard} from "@/lib/utils";
-import {useEffect, useState} from "react";
+import { BibleBook, Verse } from "@/lib/types";
+import { copyTextToClipboard } from "@/lib/utils";
+import { useEffect, useState } from "react";
 import BottomVerseNavigation from "@/components/Verses/BottomVerseNavigation";
 import VerseContent from "@/components/Verses/VerseContent";
 
-
-export default function Verses({book, chapter, verses,}: {
-  book: BibleBook; chapter: number; verses: Verse[];
+export default function Verses({
+  book,
+  chapter,
+  verses,
+}: {
+  book: BibleBook;
+  chapter: number;
+  verses: Verse[];
 }) {
   const [copiedVerse, setCopiedVerse] = useState("");
   const previousBookExists = chapter > 1;
@@ -17,7 +22,7 @@ export default function Verses({book, chapter, verses,}: {
   useEffect(() => {
     let timeout: NodeJS.Timeout;
     if (copiedVerse) {
-      timeout = setTimeout(() => setCopiedVerse(''), 3000);
+      timeout = setTimeout(() => setCopiedVerse(""), 3000);
     }
     return () => clearTimeout(timeout);
   }, [copiedVerse]);
@@ -46,8 +51,6 @@ export default function Verses({book, chapter, verses,}: {
           previousBookExists={previousBookExists}
         />
       </article>
-
     </>
   );
 }
-

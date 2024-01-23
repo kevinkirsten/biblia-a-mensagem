@@ -1,1 +1,142 @@
-[{"title": "SE VOCÊ GOSTA DE APRENDER", "number": "1", "content": "Quem gosta de aprender também ama a disciplina; é estupidez recusar a correção!"}, {"title": "", "number": "2", "content": "Quem faz o bem é aprovado pelo Eterno, mas ele condena quem planeja o mal."}, {"title": "", "number": "3", "content": "Sobre o mal ninguém poderá firmar-se, mas quem firma raízes em Deus permanece firme."}, {"title": "", "number": "4", "content": "A esposa amável revigora o marido, mas a mulher que o envergonha é um câncer nos ossos."}, {"title": "", "number": "5", "content": "O pensamento de gente de princípios contribui para a justiça, mas as conspirações do mau-caráter a corrompem."}, {"title": "", "number": "6", "content": "As palavras do perverso matam, mas o discurso do justo salva."}, {"title": "", "number": "7", "content": "Os perversos se despedaçam e desaparecem, mas os lares dos justos permanecem firme."}, {"title": "", "number": "8", "content": "Quem demonstra bom senso no falar é honrado, mas quem tem coração perverso é desprezado."}, {"title": "", "number": "9", "content": "Mais vale ser simples e trabalhar duro para viver que fingir ser importante e não ter o que comer."}, {"title": "", "number": "10", "content": "Os justos são bons, até mesmo com os animais, mas até as “boas atitudes” dos perversos são cruéis."}, {"title": "", "number": "11", "content": "Quem trabalha tem comida na mesa, mas quem persegue caprichos e fantasias é insensato."}, {"title": "", "number": "12", "content": "Tudo que o perverso constrói vem abaixo no final, mas as raízes dos justos produzem cada vez mais vida."}, {"title": "OS SÁBIOS PEDEM CONSELHO", "number": "13", "content": "A fofoca traz problemas para o fofoqueiro, mas o justo se mantém bem longe delas."}, {"title": "", "number": "14", "content": "Cada um colhe o fruto daquilo que fala e recebe recompensa pelo que faz."}, {"title": "", "number": "15", "content": "O insensato teima em fazer tudo do seu próprio jeito, mas o sábio pede e ouve os conselhos."}, {"title": "", "number": "16", "content": "O insensato tem pavio curto e explode na hora, mas o prudente ignora o insulto e mantém a calma."}, {"title": "", "number": "17", "content": "Quem diz a verdade ajuda a cumprir a justiça, mas quem dá testemunho falso está a serviço da mentira."}, {"title": "", "number": "18", "content": "Existem palavras que machucam muito, mas as palavras do sábio trazem cura."}, {"title": "", "number": "19", "content": "A verdade permanece para sempre, mas a mentira tem perna curta."}, {"title": "", "number": "20", "content": "O coração de quem maquina o mal corrompe a si mesmo, mas quem pratica o bem tem o coração cheio de alegria."}, {"title": "", "number": "21", "content": "Nenhum mal pode subjugar um justo, mas todos os males recaem sobre o perverso."}, {"title": "", "number": "22", "content": "Deus não tolera os mentirosos, mas ele ama a companhia dos que mantêm a palavra."}, {"title": "", "number": "23", "content": "O que é prudente não ostenta conhecimento, mas o insensato faz alarde da própria tolice."}, {"title": "", "number": "24", "content": "O que é proativo sobressai e se torna líder, mas o preguiçoso não tem jeito — será dominado."}, {"title": "", "number": "25", "content": "A preocupação e a ansiedade deprimem, mas uma palavra de apoio traz ânimo."}, {"title": "", "number": "26", "content": "O justo sobrevive à desgraça, mas a vida do perverso atrai o desastre."}, {"title": "", "number": "27", "content": "O preguiçoso chega ao final da vida com as mãos abanando, mas o que é proativo no tempo certo desfrutará o que alcançou."}, {"title": "", "number": "28", "content": "Quem anda no caminho da justiça encontra vida, mas os desvios do pecado conduzem à morte."}]
+[
+  {
+    "title": "SE VOCÊ GOSTA DE APRENDER",
+    "number": "1",
+    "content": "Quem gosta de aprender também ama a disciplina; é estupidez recusar a correção!"
+  },
+  {
+    "title": "",
+    "number": "2",
+    "content": "Quem faz o bem é aprovado pelo Eterno, mas ele condena quem planeja o mal."
+  },
+  {
+    "title": "",
+    "number": "3",
+    "content": "Sobre o mal ninguém poderá firmar-se, mas quem firma raízes em Deus permanece firme."
+  },
+  {
+    "title": "",
+    "number": "4",
+    "content": "A esposa amável revigora o marido, mas a mulher que o envergonha é um câncer nos ossos."
+  },
+  {
+    "title": "",
+    "number": "5",
+    "content": "O pensamento de gente de princípios contribui para a justiça, mas as conspirações do mau-caráter a corrompem."
+  },
+  {
+    "title": "",
+    "number": "6",
+    "content": "As palavras do perverso matam, mas o discurso do justo salva."
+  },
+  {
+    "title": "",
+    "number": "7",
+    "content": "Os perversos se despedaçam e desaparecem, mas os lares dos justos permanecem firme."
+  },
+  {
+    "title": "",
+    "number": "8",
+    "content": "Quem demonstra bom senso no falar é honrado, mas quem tem coração perverso é desprezado."
+  },
+  {
+    "title": "",
+    "number": "9",
+    "content": "Mais vale ser simples e trabalhar duro para viver que fingir ser importante e não ter o que comer."
+  },
+  {
+    "title": "",
+    "number": "10",
+    "content": "Os justos são bons, até mesmo com os animais, mas até as “boas atitudes” dos perversos são cruéis."
+  },
+  {
+    "title": "",
+    "number": "11",
+    "content": "Quem trabalha tem comida na mesa, mas quem persegue caprichos e fantasias é insensato."
+  },
+  {
+    "title": "",
+    "number": "12",
+    "content": "Tudo que o perverso constrói vem abaixo no final, mas as raízes dos justos produzem cada vez mais vida."
+  },
+  {
+    "title": "OS SÁBIOS PEDEM CONSELHO",
+    "number": "13",
+    "content": "A fofoca traz problemas para o fofoqueiro, mas o justo se mantém bem longe delas."
+  },
+  {
+    "title": "",
+    "number": "14",
+    "content": "Cada um colhe o fruto daquilo que fala e recebe recompensa pelo que faz."
+  },
+  {
+    "title": "",
+    "number": "15",
+    "content": "O insensato teima em fazer tudo do seu próprio jeito, mas o sábio pede e ouve os conselhos."
+  },
+  {
+    "title": "",
+    "number": "16",
+    "content": "O insensato tem pavio curto e explode na hora, mas o prudente ignora o insulto e mantém a calma."
+  },
+  {
+    "title": "",
+    "number": "17",
+    "content": "Quem diz a verdade ajuda a cumprir a justiça, mas quem dá testemunho falso está a serviço da mentira."
+  },
+  {
+    "title": "",
+    "number": "18",
+    "content": "Existem palavras que machucam muito, mas as palavras do sábio trazem cura."
+  },
+  {
+    "title": "",
+    "number": "19",
+    "content": "A verdade permanece para sempre, mas a mentira tem perna curta."
+  },
+  {
+    "title": "",
+    "number": "20",
+    "content": "O coração de quem maquina o mal corrompe a si mesmo, mas quem pratica o bem tem o coração cheio de alegria."
+  },
+  {
+    "title": "",
+    "number": "21",
+    "content": "Nenhum mal pode subjugar um justo, mas todos os males recaem sobre o perverso."
+  },
+  {
+    "title": "",
+    "number": "22",
+    "content": "Deus não tolera os mentirosos, mas ele ama a companhia dos que mantêm a palavra."
+  },
+  {
+    "title": "",
+    "number": "23",
+    "content": "O que é prudente não ostenta conhecimento, mas o insensato faz alarde da própria tolice."
+  },
+  {
+    "title": "",
+    "number": "24",
+    "content": "O que é proativo sobressai e se torna líder, mas o preguiçoso não tem jeito — será dominado."
+  },
+  {
+    "title": "",
+    "number": "25",
+    "content": "A preocupação e a ansiedade deprimem, mas uma palavra de apoio traz ânimo."
+  },
+  {
+    "title": "",
+    "number": "26",
+    "content": "O justo sobrevive à desgraça, mas a vida do perverso atrai o desastre."
+  },
+  {
+    "title": "",
+    "number": "27",
+    "content": "O preguiçoso chega ao final da vida com as mãos abanando, mas o que é proativo no tempo certo desfrutará o que alcançou."
+  },
+  {
+    "title": "",
+    "number": "28",
+    "content": "Quem anda no caminho da justiça encontra vida, mas os desvios do pecado conduzem à morte."
+  }
+]

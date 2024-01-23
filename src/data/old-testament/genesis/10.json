@@ -1,1 +1,87 @@
-[{"title": "A ÁRVORE GENEALÓGICA DOS FILHOS DE NOÉ", "number": "1", "content": "Essa é a descendência de Noé: Sem, Cam e Jafé. Passado o dilúvio, eles tiveram filhos."}, {"title": "", "number": "2", "content": "Os filhos de Jafé: Gômer, Magogue, Madai, Javã, Tubal, Meseque e Tirás."}, {"title": "", "number": "3", "content": "Os filhos de Gômer: Asquenaz, Rifate e Togarma."}, {"title": "", "number": "4-5", "content": "Os filhos de Javã: Elisá, Társis, Quitim e Rodanim. Foram deles que saíram os povos que trabalham no mar, cada um em seu lugar e segundo sua família, cada um com idioma próprio."}, {"title": "", "number": "6", "content": "Os filhos de Cam: Cuxe, Egito, Pute e Canaã."}, {"title": "", "number": "7", "content": "Os filhos de Cuxe: Sebá, Havilá, Sabtá, Raamá e Sabtecá. Os filhos de Raamá: Sabá e Dedã."}, {"title": "", "number": "8-12", "content": "Cuxe também foi pai de Ninrode, o primeiro grande guerreiro na terra. Ele foi um exímio caçador diante do Eterno. Havia até um ditado: “Assim como Ninrode, exímio caçador diante do Eterno”. Seu reino começou com Babel; depois, Ereque, Acade e Calné, na terra de Sinear. Dali, ele subiu para a Assíria e construiu Nínive, Reobote-Ir, Calá e Resém, que fica entre Nínive e a grande cidade de Calá."}, {"title": "", "number": "13-14", "content": "Mizraim foi antepassado dos luditas, dos anamitas, dos leabitas, dos naftuítas, dos patrusitas, dos casluítas (dos quais saíram os filisteus) e dos caftoritas."}, {"title": "", "number": "15-19", "content": "Canaã teve seu primeiro filho, chamado Sidom; depois, Hete, e também teve como descendentes os jebuseus, os amorreus, os girgaseus, os heveus, os arqueus, os sineus, os arvadeus, os zemareus e os hamateus. Tempos depois, os cananeus saíram de Sidom e se espalharam em direção a Gerar, chegando até Gaza, no sul, e, em seguida, na direção ao leste, até Sodoma, Gomorra, Admá e Zeboim, chegando a Lasa."}, {"title": "", "number": "20", "content": "Esses são os descendentes de Cam, segundo suas famílias, suas línguas, seus territórios e suas nações."}, {"title": "", "number": "21", "content": "Sem, irmão mais velho de Jafé, também teve filhos. Sem foi antepassado de todos os filhos de Héber."}, {"title": "", "number": "22", "content": "Os filhos de Sem: Elão, Assur, Arfaxade, Lude e Arã."}, {"title": "", "number": "23", "content": "Os filhos de Arã: Uz, Hul, Géter e Meseque."}, {"title": "", "number": "24-25", "content": "Arfaxade foi pai de Selá, que, por sua vez, foi pai de Héber. Héber teve dois filhos: Pelegue (chamado assim porque foi nos dias dele que a raça humana se dividiu) e Joctã."}, {"title": "", "number": "26-30", "content": "Joctã foi pai de Almodá, Salefe, Hazarmavé, Jerá, Adorão, Uzal, Dida, Obal, Abimael, Sabá, Ofir, Havilá e Jobabe; todos esses foram filhos de Joctã. O território deles vai de Messa até Sefar, nas cadeias de montanhas ao leste."}, {"title": "", "number": "31", "content": "Esses são os descendentes de Sem, segundo suas famílias, suas línguas, seus territórios e suas nações."}, {"title": "", "number": "32", "content": "Essa é a árvore genealógica dos filhos de Noé ao constituírem nações. Começando por eles, essas nações se multiplicaram pela terra depois do dilúvio."}]
+[
+  {
+    "title": "A ÁRVORE GENEALÓGICA DOS FILHOS DE NOÉ",
+    "number": "1",
+    "content": "Essa é a descendência de Noé: Sem, Cam e Jafé. Passado o dilúvio, eles tiveram filhos."
+  },
+  {
+    "title": "",
+    "number": "2",
+    "content": "Os filhos de Jafé: Gômer, Magogue, Madai, Javã, Tubal, Meseque e Tirás."
+  },
+  {
+    "title": "",
+    "number": "3",
+    "content": "Os filhos de Gômer: Asquenaz, Rifate e Togarma."
+  },
+  {
+    "title": "",
+    "number": "4-5",
+    "content": "Os filhos de Javã: Elisá, Társis, Quitim e Rodanim. Foram deles que saíram os povos que trabalham no mar, cada um em seu lugar e segundo sua família, cada um com idioma próprio."
+  },
+  {
+    "title": "",
+    "number": "6",
+    "content": "Os filhos de Cam: Cuxe, Egito, Pute e Canaã."
+  },
+  {
+    "title": "",
+    "number": "7",
+    "content": "Os filhos de Cuxe: Sebá, Havilá, Sabtá, Raamá e Sabtecá. Os filhos de Raamá: Sabá e Dedã."
+  },
+  {
+    "title": "",
+    "number": "8-12",
+    "content": "Cuxe também foi pai de Ninrode, o primeiro grande guerreiro na terra. Ele foi um exímio caçador diante do Eterno. Havia até um ditado: “Assim como Ninrode, exímio caçador diante do Eterno”. Seu reino começou com Babel; depois, Ereque, Acade e Calné, na terra de Sinear. Dali, ele subiu para a Assíria e construiu Nínive, Reobote-Ir, Calá e Resém, que fica entre Nínive e a grande cidade de Calá."
+  },
+  {
+    "title": "",
+    "number": "13-14",
+    "content": "Mizraim foi antepassado dos luditas, dos anamitas, dos leabitas, dos naftuítas, dos patrusitas, dos casluítas (dos quais saíram os filisteus) e dos caftoritas."
+  },
+  {
+    "title": "",
+    "number": "15-19",
+    "content": "Canaã teve seu primeiro filho, chamado Sidom; depois, Hete, e também teve como descendentes os jebuseus, os amorreus, os girgaseus, os heveus, os arqueus, os sineus, os arvadeus, os zemareus e os hamateus. Tempos depois, os cananeus saíram de Sidom e se espalharam em direção a Gerar, chegando até Gaza, no sul, e, em seguida, na direção ao leste, até Sodoma, Gomorra, Admá e Zeboim, chegando a Lasa."
+  },
+  {
+    "title": "",
+    "number": "20",
+    "content": "Esses são os descendentes de Cam, segundo suas famílias, suas línguas, seus territórios e suas nações."
+  },
+  {
+    "title": "",
+    "number": "21",
+    "content": "Sem, irmão mais velho de Jafé, também teve filhos. Sem foi antepassado de todos os filhos de Héber."
+  },
+  {
+    "title": "",
+    "number": "22",
+    "content": "Os filhos de Sem: Elão, Assur, Arfaxade, Lude e Arã."
+  },
+  {
+    "title": "",
+    "number": "23",
+    "content": "Os filhos de Arã: Uz, Hul, Géter e Meseque."
+  },
+  {
+    "title": "",
+    "number": "24-25",
+    "content": "Arfaxade foi pai de Selá, que, por sua vez, foi pai de Héber. Héber teve dois filhos: Pelegue (chamado assim porque foi nos dias dele que a raça humana se dividiu) e Joctã."
+  },
+  {
+    "title": "",
+    "number": "26-30",
+    "content": "Joctã foi pai de Almodá, Salefe, Hazarmavé, Jerá, Adorão, Uzal, Dida, Obal, Abimael, Sabá, Ofir, Havilá e Jobabe; todos esses foram filhos de Joctã. O território deles vai de Messa até Sefar, nas cadeias de montanhas ao leste."
+  },
+  {
+    "title": "",
+    "number": "31",
+    "content": "Esses são os descendentes de Sem, segundo suas famílias, suas línguas, seus territórios e suas nações."
+  },
+  {
+    "title": "",
+    "number": "32",
+    "content": "Essa é a árvore genealógica dos filhos de Noé ao constituírem nações. Começando por eles, essas nações se multiplicaram pela terra depois do dilúvio."
+  }
+]

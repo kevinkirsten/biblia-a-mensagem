@@ -1,1 +1,61 @@
-[{"title": "", "number": "1-2", "content": "\"Estas palavras são todas do Eterno: ‘Eu sou o Eterno, o Deus de vocês, que os tirou da terra do Egito, da vida de escravidão."}, {"title": "", "number": "3", "content": "Não tenham outros deuses além de mim."}, {"title": "", "number": "4-6", "content": "Não tenham deuses esculpidos de nenhum tamanho ou forma nem com aparência de coisa alguma, seja de coisas que voam, seja de coisas que andam, seja de coisas que nadam. Não se curvem a elas nem as sirvam, pois sou o Eterno, o Deus de vocês, e sou um Deus ciumento, que pune os filhos pelos pecados dos pais até a terceira e quarta gerações dos que me odeiam. Mas sou leal a milhares que me amam e guardam meus mandamentos."}, {"title": "", "number": "7", "content": "Não usem o nome do Eterno, o Deus de vocês, para xingamentos ou em brincadeiras. O Eterno não irá tolerar o uso irreverente do seu nome."}, {"title": "", "number": "8-11", "content": "Guardem o dia de sábado, para que sempre seja santo. Trabalhem seis dias e, nesse tempo, façam tudo que for necessário. Mas o sétimo dia é o sábado do Eterno, o Deus de vocês. Não realizem nenhuma espécie de trabalho, nem vocês, nem seu filho, nem sua filha, nem seu escravo, nem sua escrava, nem seus animais, nem mesmo o estrangeiro em visita à sua cidade. Porque, em seis dias, o Eterno fez o céu, a terra, o mar e tudo que neles há e descansou no sétimo dia. Portanto, o Eterno abençoou o dia de sábado e o separou como dia santo."}, {"title": "", "number": "12", "content": "Honrem seu pai e sua mãe, para que tenham vida longa na terra que Deus, o Deus de vocês, está dando a vocês."}, {"title": "", "number": "13", "content": "Não cometam homicídio."}, {"title": "", "number": "14", "content": "Não cometam adultério."}, {"title": "", "number": "15", "content": "Não roubem."}, {"title": "", "number": "16", "content": "Não difamem o próximo."}, {"title": "", "number": "17", "content": "Não cobicem a casa do próximo, nem sua esposa, seu escravo, sua escrava, seu boi ou jumento. Não ponham o coração em nada que pertença ao próximo’”."}, {"title": "", "number": "18-19", "content": "Depois de presenciar todo aquele espetáculo de trovões e relâmpagos, toques de trombeta e fumaça que subia do monte, o povo sentiu muito medo e manteve uma boa distância do lugar. Eles disseram a Moisés: “Fale conosco, e ouviremos, mas que Deus não fale conosco, senão vamos morrer!”."}, {"title": "", "number": "20", "content": "Moisés tranquilizou o povo: “Não fiquem com medo. Deus veio para provar vocês e incutir em vocês temor profundo e reverente, para que não pequem”."}, {"title": "", "number": "21", "content": "O povo ficou de longe, enquanto Moisés se aproximava da nuvem espessa na qual Deus estava."}, {"title": "", "number": "22-25", "content": "E o Eterno disse a Moisés: “Transmita a seguinte mensagem ao povo de Israel: ‘Vocês tiveram a experiência de ver como falo com vocês do céu. Não façam deuses de prata nem deuses de ouro para competir comigo. Façam um altar de terra para mim. Sacrifiquem ali ofertas queimadas, suas ofertas de paz, os cordeiros e o gado. Onde quer que eu faça meu nome ser honrado na adoração que vocês me prestarem, ali estarei e abençoarei vocês. Se usarem pedras para edificar meu altar, não usem pedras lavradas. Se usarem algum instrumento para cortar as pedras, vocês estarão profanando o altar. Não subam ao meu altar por degraus, pois isso iria expor sua nudez’”."}]
+[
+  {
+    "title": "",
+    "number": "1-2",
+    "content": "\"Estas palavras são todas do Eterno: ‘Eu sou o Eterno, o Deus de vocês, que os tirou da terra do Egito, da vida de escravidão."
+  },
+  {
+    "title": "",
+    "number": "3",
+    "content": "Não tenham outros deuses além de mim."
+  },
+  {
+    "title": "",
+    "number": "4-6",
+    "content": "Não tenham deuses esculpidos de nenhum tamanho ou forma nem com aparência de coisa alguma, seja de coisas que voam, seja de coisas que andam, seja de coisas que nadam. Não se curvem a elas nem as sirvam, pois sou o Eterno, o Deus de vocês, e sou um Deus ciumento, que pune os filhos pelos pecados dos pais até a terceira e quarta gerações dos que me odeiam. Mas sou leal a milhares que me amam e guardam meus mandamentos."
+  },
+  {
+    "title": "",
+    "number": "7",
+    "content": "Não usem o nome do Eterno, o Deus de vocês, para xingamentos ou em brincadeiras. O Eterno não irá tolerar o uso irreverente do seu nome."
+  },
+  {
+    "title": "",
+    "number": "8-11",
+    "content": "Guardem o dia de sábado, para que sempre seja santo. Trabalhem seis dias e, nesse tempo, façam tudo que for necessário. Mas o sétimo dia é o sábado do Eterno, o Deus de vocês. Não realizem nenhuma espécie de trabalho, nem vocês, nem seu filho, nem sua filha, nem seu escravo, nem sua escrava, nem seus animais, nem mesmo o estrangeiro em visita à sua cidade. Porque, em seis dias, o Eterno fez o céu, a terra, o mar e tudo que neles há e descansou no sétimo dia. Portanto, o Eterno abençoou o dia de sábado e o separou como dia santo."
+  },
+  {
+    "title": "",
+    "number": "12",
+    "content": "Honrem seu pai e sua mãe, para que tenham vida longa na terra que Deus, o Deus de vocês, está dando a vocês."
+  },
+  { "title": "", "number": "13", "content": "Não cometam homicídio." },
+  { "title": "", "number": "14", "content": "Não cometam adultério." },
+  { "title": "", "number": "15", "content": "Não roubem." },
+  { "title": "", "number": "16", "content": "Não difamem o próximo." },
+  {
+    "title": "",
+    "number": "17",
+    "content": "Não cobicem a casa do próximo, nem sua esposa, seu escravo, sua escrava, seu boi ou jumento. Não ponham o coração em nada que pertença ao próximo’”."
+  },
+  {
+    "title": "",
+    "number": "18-19",
+    "content": "Depois de presenciar todo aquele espetáculo de trovões e relâmpagos, toques de trombeta e fumaça que subia do monte, o povo sentiu muito medo e manteve uma boa distância do lugar. Eles disseram a Moisés: “Fale conosco, e ouviremos, mas que Deus não fale conosco, senão vamos morrer!”."
+  },
+  {
+    "title": "",
+    "number": "20",
+    "content": "Moisés tranquilizou o povo: “Não fiquem com medo. Deus veio para provar vocês e incutir em vocês temor profundo e reverente, para que não pequem”."
+  },
+  {
+    "title": "",
+    "number": "21",
+    "content": "O povo ficou de longe, enquanto Moisés se aproximava da nuvem espessa na qual Deus estava."
+  },
+  {
+    "title": "",
+    "number": "22-25",
+    "content": "E o Eterno disse a Moisés: “Transmita a seguinte mensagem ao povo de Israel: ‘Vocês tiveram a experiência de ver como falo com vocês do céu. Não façam deuses de prata nem deuses de ouro para competir comigo. Façam um altar de terra para mim. Sacrifiquem ali ofertas queimadas, suas ofertas de paz, os cordeiros e o gado. Onde quer que eu faça meu nome ser honrado na adoração que vocês me prestarem, ali estarei e abençoarei vocês. Se usarem pedras para edificar meu altar, não usem pedras lavradas. Se usarem algum instrumento para cortar as pedras, vocês estarão profanando o altar. Não subam ao meu altar por degraus, pois isso iria expor sua nudez’”."
+  }
+]

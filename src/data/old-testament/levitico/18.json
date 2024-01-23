@@ -1,1 +1,107 @@
-[{"title": "SEXO", "number": "1-5", "content": "O Eterno disse a Moisés: “Fale com o povo de Israel e diga a eles: ‘Eu sou o Eterno, o seu Deus. Não ajam como o povo do Egito, com quem vocês conviveram, nem como os povos de Canaã, para onde estou levando vocês. Não façam o que eles fazem. Obedeçam às minhas leis e ajam de acordo com meus decretos. Eu sou o Eterno. Guardem meus decretos e leis. Quem obedecer a essas leis viverá por elas. Eu sou o Eterno."}, {"title": "", "number": "6", "content": "“‘Não tenham relações sexuais com parentes próximos. Eu sou o Eterno."}, {"title": "", "number": "7", "content": "“‘Não desonrem seu pai, tendo relações com sua mãe. Ela é sua mãe. Não tenham relações com ela."}, {"title": "", "number": "8", "content": "“‘Não tenham relações com a mãe de seu pai. Isso desonra seu pai."}, {"title": "", "number": "9", "content": "“‘Não tenham relações com sua irmã, filha de seu pai ou de sua mãe, tenha ela nascido na mesma casa ou não."}, {"title": "", "number": "10", "content": "“‘Não tenham relações com a filha de seu filho ou com a filha de sua filha. Isso desonraria o próprio corpo de vocês."}, {"title": "", "number": "11", "content": "“‘Não tenham relações com a filha da esposa de seu pai, nascida de seu pai. Ela é sua irmã."}, {"title": "", "number": "12", "content": "“‘Não tenham relações com a irmã de seu pai. Ela é sua tia, parenta próxima de seu pai."}, {"title": "", "number": "13", "content": "“‘Não tenham relações com a irmã de sua mãe. Ela é sua tia, parenta próxima de sua mãe."}, {"title": "", "number": "14", "content": "“‘Não desonrem o irmão de seu pai, seu tio, tendo relações com a esposa dele. Ela é sua tia."}, {"title": "", "number": "15", "content": "“‘Não tenham relações com sua nora. Ela é esposa de seu filho: não tenham relações com ela."}, {"title": "", "number": "16", "content": "“‘Não tenham relações com a esposa de seu irmão. Isso desonraria seu irmão."}, {"title": "", "number": "17", "content": "“‘Não tenham relações com uma mulher e a filha dela. E não tenham relações com as netas dela. São parentas próximas. Isso é perversão."}, {"title": "", "number": "18", "content": "“‘Não se casem com a irmã de sua esposa para que uma não se torne rival da outra e para que o homem não tenha relações com ela enquanto a esposa ainda está viva."}, {"title": "", "number": "19", "content": "“‘Não tenham relações com sua esposa durante o período menstrual, quando ela está impura."}, {"title": "", "number": "20", "content": "“‘Não tenham relações com a esposa do vizinho, contaminando-se com ela."}, {"title": "", "number": "21", "content": "“‘Não entreguem nenhum de seus filhos para ser queimado como sacrifício ao deus Moloque. É um ato de blasfêmia contra seu Deus. Eu sou o Eterno."}, {"title": "", "number": "22", "content": "“‘Não tenham relações com um homem como se tem com uma mulher. Isso é abominável."}, {"title": "", "number": "23", "content": "“‘Não tenham relações com um animal, contaminando-se com ele."}, {"title": "", "number": "24-28", "content": "“‘Não se contaminem de nenhuma dessas maneiras. Foi assim que os outros povos se contaminaram, os povos que expulsarei da terra diante de vocês. Até mesmo a terra foi contaminada, e vou castigá-la por causa de suas iniquidades. A terra vomitou seus habitantes. Obedeçam aos meus decretos e leis, tanto o natural da terra quanto o estrangeiro residente. Não façam nenhuma dessas coisas abomináveis. Os povos que habitavam essa terra, antes que vocês chegassem, fizeram todas essas coisas e a contaminaram. E, se vocês a contaminarem, a terra vomitará vocês, assim como vomitou as nações que os precederam."}, {"title": "", "number": "29-30", "content": "“‘Os que fizerem qualquer uma dessas coisas abomináveis serão eliminados do meio do povo. Gravem o que estou dizendo e não se envolvam em nenhuma das práticas abomináveis existentes antes da chegada de vocês. Não se contaminem com elas. Eu sou o Eterno, o seu Deus’”."}]
+[
+  {
+    "title": "SEXO",
+    "number": "1-5",
+    "content": "O Eterno disse a Moisés: “Fale com o povo de Israel e diga a eles: ‘Eu sou o Eterno, o seu Deus. Não ajam como o povo do Egito, com quem vocês conviveram, nem como os povos de Canaã, para onde estou levando vocês. Não façam o que eles fazem. Obedeçam às minhas leis e ajam de acordo com meus decretos. Eu sou o Eterno. Guardem meus decretos e leis. Quem obedecer a essas leis viverá por elas. Eu sou o Eterno."
+  },
+  {
+    "title": "",
+    "number": "6",
+    "content": "“‘Não tenham relações sexuais com parentes próximos. Eu sou o Eterno."
+  },
+  {
+    "title": "",
+    "number": "7",
+    "content": "“‘Não desonrem seu pai, tendo relações com sua mãe. Ela é sua mãe. Não tenham relações com ela."
+  },
+  {
+    "title": "",
+    "number": "8",
+    "content": "“‘Não tenham relações com a mãe de seu pai. Isso desonra seu pai."
+  },
+  {
+    "title": "",
+    "number": "9",
+    "content": "“‘Não tenham relações com sua irmã, filha de seu pai ou de sua mãe, tenha ela nascido na mesma casa ou não."
+  },
+  {
+    "title": "",
+    "number": "10",
+    "content": "“‘Não tenham relações com a filha de seu filho ou com a filha de sua filha. Isso desonraria o próprio corpo de vocês."
+  },
+  {
+    "title": "",
+    "number": "11",
+    "content": "“‘Não tenham relações com a filha da esposa de seu pai, nascida de seu pai. Ela é sua irmã."
+  },
+  {
+    "title": "",
+    "number": "12",
+    "content": "“‘Não tenham relações com a irmã de seu pai. Ela é sua tia, parenta próxima de seu pai."
+  },
+  {
+    "title": "",
+    "number": "13",
+    "content": "“‘Não tenham relações com a irmã de sua mãe. Ela é sua tia, parenta próxima de sua mãe."
+  },
+  {
+    "title": "",
+    "number": "14",
+    "content": "“‘Não desonrem o irmão de seu pai, seu tio, tendo relações com a esposa dele. Ela é sua tia."
+  },
+  {
+    "title": "",
+    "number": "15",
+    "content": "“‘Não tenham relações com sua nora. Ela é esposa de seu filho: não tenham relações com ela."
+  },
+  {
+    "title": "",
+    "number": "16",
+    "content": "“‘Não tenham relações com a esposa de seu irmão. Isso desonraria seu irmão."
+  },
+  {
+    "title": "",
+    "number": "17",
+    "content": "“‘Não tenham relações com uma mulher e a filha dela. E não tenham relações com as netas dela. São parentas próximas. Isso é perversão."
+  },
+  {
+    "title": "",
+    "number": "18",
+    "content": "“‘Não se casem com a irmã de sua esposa para que uma não se torne rival da outra e para que o homem não tenha relações com ela enquanto a esposa ainda está viva."
+  },
+  {
+    "title": "",
+    "number": "19",
+    "content": "“‘Não tenham relações com sua esposa durante o período menstrual, quando ela está impura."
+  },
+  {
+    "title": "",
+    "number": "20",
+    "content": "“‘Não tenham relações com a esposa do vizinho, contaminando-se com ela."
+  },
+  {
+    "title": "",
+    "number": "21",
+    "content": "“‘Não entreguem nenhum de seus filhos para ser queimado como sacrifício ao deus Moloque. É um ato de blasfêmia contra seu Deus. Eu sou o Eterno."
+  },
+  {
+    "title": "",
+    "number": "22",
+    "content": "“‘Não tenham relações com um homem como se tem com uma mulher. Isso é abominável."
+  },
+  {
+    "title": "",
+    "number": "23",
+    "content": "“‘Não tenham relações com um animal, contaminando-se com ele."
+  },
+  {
+    "title": "",
+    "number": "24-28",
+    "content": "“‘Não se contaminem de nenhuma dessas maneiras. Foi assim que os outros povos se contaminaram, os povos que expulsarei da terra diante de vocês. Até mesmo a terra foi contaminada, e vou castigá-la por causa de suas iniquidades. A terra vomitou seus habitantes. Obedeçam aos meus decretos e leis, tanto o natural da terra quanto o estrangeiro residente. Não façam nenhuma dessas coisas abomináveis. Os povos que habitavam essa terra, antes que vocês chegassem, fizeram todas essas coisas e a contaminaram. E, se vocês a contaminarem, a terra vomitará vocês, assim como vomitou as nações que os precederam."
+  },
+  {
+    "title": "",
+    "number": "29-30",
+    "content": "“‘Os que fizerem qualquer uma dessas coisas abomináveis serão eliminados do meio do povo. Gravem o que estou dizendo e não se envolvam em nenhuma das práticas abomináveis existentes antes da chegada de vocês. Não se contaminem com elas. Eu sou o Eterno, o seu Deus’”."
+  }
+]

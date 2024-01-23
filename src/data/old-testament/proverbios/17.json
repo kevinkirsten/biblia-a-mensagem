@@ -1,1 +1,142 @@
-[{"title": "UMA PAULADA NA CABEÇA", "number": "1", "content": "É melhor comer um pedaço de pão com água em paz que ter um banquete no meio de brigas."}, {"title": "", "number": "2", "content": "O servo sábio sabe lidar com o filho difícil e assim é honrado como alguém da família."}, {"title": "", "number": "3", "content": "Como a prata e o ouro são provados pelo fogo, assim a nossa vida é examinada pelo Eterno."}, {"title": "", "number": "4", "content": "O perverso gosta de conversas maliciosas; e os ouvidos do mentiroso coçam por uma fofoca."}, {"title": "", "number": "5", "content": "Quem zomba dos pobres insulta o Criador; quem faz festa quando há desgraça não fica sem castigo."}, {"title": "", "number": "6", "content": "Os netos são reconhecimento para os idosos; os filhos são orgulho para os pais."}, {"title": "", "number": "7", "content": "Não se espera eloquência de um insensato, muito menos mentiras de um líder."}, {"title": "", "number": "8", "content": "Alguns acham que o dinheiro compra tudo — até mesmo pessoas; e que o suborno é uma varinha mágica — que sempre funciona."}, {"title": "", "number": "9", "content": "Esqueça a ofensa e manterá a amizade; mas, se insistir na ofensa, diga adeus ao amigo!"}, {"title": "", "number": "10", "content": "A repreensão atinge profundamente a quem tem entendimento, mas o insensato leva a maior paulada e nem se importa"}, {"title": "", "number": "11", "content": "Os maus só procuram confusão e não perdem por esperar: eles a encontrarão!"}, {"title": "", "number": "12", "content": "É melhor encontrar uma ursa que teve os filhotes roubados que um insensato em sua loucura."}, {"title": "", "number": "13", "content": "Quem paga o bem com o mal receberá o troco: o mal nunca lhe dará sossego."}, {"title": "", "number": "14", "content": "O início de uma briga é como vazamento de uma represa; por isso, é bom parar antes que se rompa de vez."}, {"title": "", "number": "15", "content": "Proteger o perverso e atirar lama nos justos são atitudes detestáveis ao Eterno."}, {"title": "", "number": "16", "content": "O que é isso? O insensato saiu para comprar sabedoria? De nada adianta! Ele não sabe o que fazer com ela!"}, {"title": "QUEM SABE MUITO FALA POUCO", "number": "17", "content": "O amigo ama sempre e com ele não há tempo ruim; mesmo quando há problemas, ele é sempre um ombro amigo."}, {"title": "", "number": "18", "content": "É tolice ser irresponsável com a vida financeira; acumular dívidas que não se pode pagar é muita loucura."}, {"title": "", "number": "19", "content": "Quem namora o pecado se casa com a confusão; e quem deixa a arrogância subir à cabeça faz um convite à destruição."}, {"title": "", "number": "20", "content": "Quem planeja a maldade não pode terminar bem; a conversa traiçoeira só traz mais confusão."}, {"title": "", "number": "21", "content": "O filho insensato é uma desgraça; não dá motivo nenhum de alegria ao pai."}, {"title": "", "number": "22", "content": "A disposição alegre faz bem à saúde; mas a tristeza e o abatimento esgotam as forças."}, {"title": "", "number": "23", "content": "O perverso recebe suborno por baixo do pano; isso comprova desprezo pela justiça."}, {"title": "", "number": "24", "content": "O sensato anda de mãos dadas com a sabedoria, mas o insensato está sempre vagando com olhar perdido."}, {"title": "", "number": "25", "content": "O filho inconsequente é um sofrimento para o pai e para a sua mãe é osso duro de roer."}, {"title": "", "number": "26", "content": "Castigar o bom comportamento é um absurdo! Pior ainda é fazer o bom cidadão pagar pelo crime dos outros!"}, {"title": "", "number": "27", "content": "Quem sabe muito fala pouco; quem é sensato sabe manter a calma."}, {"title": "", "number": "28", "content": "Até mesmo os ignorantes passam por sábios quando fecham a boca; quem sabe ficar calado passa-se por inteligente."}]
+[
+  {
+    "title": "UMA PAULADA NA CABEÇA",
+    "number": "1",
+    "content": "É melhor comer um pedaço de pão com água em paz que ter um banquete no meio de brigas."
+  },
+  {
+    "title": "",
+    "number": "2",
+    "content": "O servo sábio sabe lidar com o filho difícil e assim é honrado como alguém da família."
+  },
+  {
+    "title": "",
+    "number": "3",
+    "content": "Como a prata e o ouro são provados pelo fogo, assim a nossa vida é examinada pelo Eterno."
+  },
+  {
+    "title": "",
+    "number": "4",
+    "content": "O perverso gosta de conversas maliciosas; e os ouvidos do mentiroso coçam por uma fofoca."
+  },
+  {
+    "title": "",
+    "number": "5",
+    "content": "Quem zomba dos pobres insulta o Criador; quem faz festa quando há desgraça não fica sem castigo."
+  },
+  {
+    "title": "",
+    "number": "6",
+    "content": "Os netos são reconhecimento para os idosos; os filhos são orgulho para os pais."
+  },
+  {
+    "title": "",
+    "number": "7",
+    "content": "Não se espera eloquência de um insensato, muito menos mentiras de um líder."
+  },
+  {
+    "title": "",
+    "number": "8",
+    "content": "Alguns acham que o dinheiro compra tudo — até mesmo pessoas; e que o suborno é uma varinha mágica — que sempre funciona."
+  },
+  {
+    "title": "",
+    "number": "9",
+    "content": "Esqueça a ofensa e manterá a amizade; mas, se insistir na ofensa, diga adeus ao amigo!"
+  },
+  {
+    "title": "",
+    "number": "10",
+    "content": "A repreensão atinge profundamente a quem tem entendimento, mas o insensato leva a maior paulada e nem se importa"
+  },
+  {
+    "title": "",
+    "number": "11",
+    "content": "Os maus só procuram confusão e não perdem por esperar: eles a encontrarão!"
+  },
+  {
+    "title": "",
+    "number": "12",
+    "content": "É melhor encontrar uma ursa que teve os filhotes roubados que um insensato em sua loucura."
+  },
+  {
+    "title": "",
+    "number": "13",
+    "content": "Quem paga o bem com o mal receberá o troco: o mal nunca lhe dará sossego."
+  },
+  {
+    "title": "",
+    "number": "14",
+    "content": "O início de uma briga é como vazamento de uma represa; por isso, é bom parar antes que se rompa de vez."
+  },
+  {
+    "title": "",
+    "number": "15",
+    "content": "Proteger o perverso e atirar lama nos justos são atitudes detestáveis ao Eterno."
+  },
+  {
+    "title": "",
+    "number": "16",
+    "content": "O que é isso? O insensato saiu para comprar sabedoria? De nada adianta! Ele não sabe o que fazer com ela!"
+  },
+  {
+    "title": "QUEM SABE MUITO FALA POUCO",
+    "number": "17",
+    "content": "O amigo ama sempre e com ele não há tempo ruim; mesmo quando há problemas, ele é sempre um ombro amigo."
+  },
+  {
+    "title": "",
+    "number": "18",
+    "content": "É tolice ser irresponsável com a vida financeira; acumular dívidas que não se pode pagar é muita loucura."
+  },
+  {
+    "title": "",
+    "number": "19",
+    "content": "Quem namora o pecado se casa com a confusão; e quem deixa a arrogância subir à cabeça faz um convite à destruição."
+  },
+  {
+    "title": "",
+    "number": "20",
+    "content": "Quem planeja a maldade não pode terminar bem; a conversa traiçoeira só traz mais confusão."
+  },
+  {
+    "title": "",
+    "number": "21",
+    "content": "O filho insensato é uma desgraça; não dá motivo nenhum de alegria ao pai."
+  },
+  {
+    "title": "",
+    "number": "22",
+    "content": "A disposição alegre faz bem à saúde; mas a tristeza e o abatimento esgotam as forças."
+  },
+  {
+    "title": "",
+    "number": "23",
+    "content": "O perverso recebe suborno por baixo do pano; isso comprova desprezo pela justiça."
+  },
+  {
+    "title": "",
+    "number": "24",
+    "content": "O sensato anda de mãos dadas com a sabedoria, mas o insensato está sempre vagando com olhar perdido."
+  },
+  {
+    "title": "",
+    "number": "25",
+    "content": "O filho inconsequente é um sofrimento para o pai e para a sua mãe é osso duro de roer."
+  },
+  {
+    "title": "",
+    "number": "26",
+    "content": "Castigar o bom comportamento é um absurdo! Pior ainda é fazer o bom cidadão pagar pelo crime dos outros!"
+  },
+  {
+    "title": "",
+    "number": "27",
+    "content": "Quem sabe muito fala pouco; quem é sensato sabe manter a calma."
+  },
+  {
+    "title": "",
+    "number": "28",
+    "content": "Até mesmo os ignorantes passam por sábios quando fecham a boca; quem sabe ficar calado passa-se por inteligente."
+  }
+]

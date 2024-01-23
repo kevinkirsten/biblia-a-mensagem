@@ -1,1 +1,92 @@
-[{"title": "", "number": "1", "content": "A serpente era inteligente, mais inteligente que qualquer outro animal selvagem que o Eterno havia criado. Ela disse à Mulher: “Será que entendi direito? Deus disse a vocês que não comessem de árvore alguma do jardim? \""}, {"title": "", "number": "2-3", "content": "A Mulher respondeu: “Claro que não! Temos permissão para comer das árvores do jardim. Só com relação à árvore que está no meio do jardim foi que Deus disse: ‘Não comam daquela árvore, nem mesmo toquem nela, senão vocês vão morrer’”."}, {"title": "", "number": "4-5", "content": "Então, a serpente disse à Mulher: “Vocês não vão morrer. Deus sabe que, no momento em que comerem daquela árvore, vocês vão perceber a realidade e serão como Deus: conhecerão todas as coisas, tanto o bem quanto o mal”."}, {"title": "", "number": "6", "content": "A Mulher olhou para a árvore e percebeu que o fruto era apetitoso. Pensando na possibilidade de conhecer todas as coisas, pegou o fruto, comeu e o repartiu com o marido — ele também comeu."}, {"title": "", "number": "7", "content": "Na mesma hora, os dois, de fato, perceberam a “realidade”: descobriram que estavam nus! Então, costuraram umas roupas provisórias, feitas de folhas de figueira."}, {"title": "", "number": "8", "content": "Quando escutaram o som do Eterno passeando pelo jardim, na hora da brisa da tarde, o Homem e a Mulher esconderam-se entre as árvores. Não queriam se encontrar com o Eterno."}, {"title": "", "number": "9", "content": "Mas o Eterno chamou o Homem: “Onde você está?”"}, {"title": "", "number": "10", "content": "Ele respondeu: “Eu te ouvi no jardim e fiquei com medo, porque eu estava nu. Então, me escondi”."}, {"title": "", "number": "11", "content": "E o Eterno disse: “Quem disse que você estava nu? Você comeu da árvore de que o proibi de comer?”."}, {"title": "", "number": "12", "content": "O Homem respondeu: “A Mulher, que tu me deste para ser minha companheira, ela me deu do fruto da árvore, e, sim, acabei comendo”. Então, o Eterno disse à Mulher: “O que foi que você fez?”"}, {"title": "", "number": "13", "content": "Ela respondeu: “A serpente me enganou, e acabei comendo”."}, {"title": "", "number": "14-15", "content": "Então, o Eterno disse à serpente: “Por ter feito isso, você será amaldiçoada, mais que o gado e os animais selvagens, Amaldiçoada para rastejar e comer pó a vida toda. Declaro guerra entre você e a Mulher, entre seu descendente e o descendente dela. Ele ferirá sua cabeça, e você ferirá o calcanhar dele”."}, {"title": "", "number": "16", "content": "E ele disse à Mulher: “Multiplicarei suas dores no parto; você dará à luz seus filhos em meio a dores. Você vai querer agradar a seu marido, mas ele governará sobre você”."}, {"title": "", "number": "17-19", "content": "E disse ao Homem: “Por ter dado ouvidos à Mulher e comido da árvore De que o proibi de comer: ‘Não coma dessa árvore’, Até mesmo a terra será amaldiçoada por sua causa. Tirar o alimento da terra Será tão sofrido quanto o parto da Mulher; você sofrerá para trabalhar durante toda a sua vida. A terra produzirá espinhos e mato, e, para você, será penoso conseguir alimento; Você vai plantar, regar e colher, vai suar na lavoura, de manhã cedo até bem tarde, Até que você volte para a terra, morto e enterrado; você começou como pó e como pó também acabará."}, {"title": "", "number": "20", "content": "O Homem, conhecido como Adão, deu o nome de Eva à sua esposa, porque ela foi a mãe de todos os que vivem."}, {"title": "", "number": "21", "content": "O Eterno fez roupas de couro para que Adão e sua mulher vestissem."}, {"title": "", "number": "22", "content": "E o Eterno disse: “O Homem tornou-se como um de nós, capaz de conhecer todas as coisas, tanto o bem quanto o mal. E agora? E se ele comer do fruto da Árvore da Vida e viver para sempre? Nunca! Isso não pode acontecer!”"}, {"title": "", "number": "23-24", "content": "Por isso, o Eterno os expulsou do jardim do Éden e mandou-os trabalhar na terra, a mesma de que eles haviam sido feitos. Ele os tirou do jardim e deixou um anjo querubim de guarda no lado leste e uma espada de fogo, se movendo de um lado para o outro, guardando o caminho que leva à Árvore da Vida."}]
+[
+  {
+    "title": "",
+    "number": "1",
+    "content": "A serpente era inteligente, mais inteligente que qualquer outro animal selvagem que o Eterno havia criado. Ela disse à Mulher: “Será que entendi direito? Deus disse a vocês que não comessem de árvore alguma do jardim? \""
+  },
+  {
+    "title": "",
+    "number": "2-3",
+    "content": "A Mulher respondeu: “Claro que não! Temos permissão para comer das árvores do jardim. Só com relação à árvore que está no meio do jardim foi que Deus disse: ‘Não comam daquela árvore, nem mesmo toquem nela, senão vocês vão morrer’”."
+  },
+  {
+    "title": "",
+    "number": "4-5",
+    "content": "Então, a serpente disse à Mulher: “Vocês não vão morrer. Deus sabe que, no momento em que comerem daquela árvore, vocês vão perceber a realidade e serão como Deus: conhecerão todas as coisas, tanto o bem quanto o mal”."
+  },
+  {
+    "title": "",
+    "number": "6",
+    "content": "A Mulher olhou para a árvore e percebeu que o fruto era apetitoso. Pensando na possibilidade de conhecer todas as coisas, pegou o fruto, comeu e o repartiu com o marido — ele também comeu."
+  },
+  {
+    "title": "",
+    "number": "7",
+    "content": "Na mesma hora, os dois, de fato, perceberam a “realidade”: descobriram que estavam nus! Então, costuraram umas roupas provisórias, feitas de folhas de figueira."
+  },
+  {
+    "title": "",
+    "number": "8",
+    "content": "Quando escutaram o som do Eterno passeando pelo jardim, na hora da brisa da tarde, o Homem e a Mulher esconderam-se entre as árvores. Não queriam se encontrar com o Eterno."
+  },
+  {
+    "title": "",
+    "number": "9",
+    "content": "Mas o Eterno chamou o Homem: “Onde você está?”"
+  },
+  {
+    "title": "",
+    "number": "10",
+    "content": "Ele respondeu: “Eu te ouvi no jardim e fiquei com medo, porque eu estava nu. Então, me escondi”."
+  },
+  {
+    "title": "",
+    "number": "11",
+    "content": "E o Eterno disse: “Quem disse que você estava nu? Você comeu da árvore de que o proibi de comer?”."
+  },
+  {
+    "title": "",
+    "number": "12",
+    "content": "O Homem respondeu: “A Mulher, que tu me deste para ser minha companheira, ela me deu do fruto da árvore, e, sim, acabei comendo”. Então, o Eterno disse à Mulher: “O que foi que você fez?”"
+  },
+  {
+    "title": "",
+    "number": "13",
+    "content": "Ela respondeu: “A serpente me enganou, e acabei comendo”."
+  },
+  {
+    "title": "",
+    "number": "14-15",
+    "content": "Então, o Eterno disse à serpente: “Por ter feito isso, você será amaldiçoada, mais que o gado e os animais selvagens, Amaldiçoada para rastejar e comer pó a vida toda. Declaro guerra entre você e a Mulher, entre seu descendente e o descendente dela. Ele ferirá sua cabeça, e você ferirá o calcanhar dele”."
+  },
+  {
+    "title": "",
+    "number": "16",
+    "content": "E ele disse à Mulher: “Multiplicarei suas dores no parto; você dará à luz seus filhos em meio a dores. Você vai querer agradar a seu marido, mas ele governará sobre você”."
+  },
+  {
+    "title": "",
+    "number": "17-19",
+    "content": "E disse ao Homem: “Por ter dado ouvidos à Mulher e comido da árvore De que o proibi de comer: ‘Não coma dessa árvore’, Até mesmo a terra será amaldiçoada por sua causa. Tirar o alimento da terra Será tão sofrido quanto o parto da Mulher; você sofrerá para trabalhar durante toda a sua vida. A terra produzirá espinhos e mato, e, para você, será penoso conseguir alimento; Você vai plantar, regar e colher, vai suar na lavoura, de manhã cedo até bem tarde, Até que você volte para a terra, morto e enterrado; você começou como pó e como pó também acabará."
+  },
+  {
+    "title": "",
+    "number": "20",
+    "content": "O Homem, conhecido como Adão, deu o nome de Eva à sua esposa, porque ela foi a mãe de todos os que vivem."
+  },
+  {
+    "title": "",
+    "number": "21",
+    "content": "O Eterno fez roupas de couro para que Adão e sua mulher vestissem."
+  },
+  {
+    "title": "",
+    "number": "22",
+    "content": "E o Eterno disse: “O Homem tornou-se como um de nós, capaz de conhecer todas as coisas, tanto o bem quanto o mal. E agora? E se ele comer do fruto da Árvore da Vida e viver para sempre? Nunca! Isso não pode acontecer!”"
+  },
+  {
+    "title": "",
+    "number": "23-24",
+    "content": "Por isso, o Eterno os expulsou do jardim do Éden e mandou-os trabalhar na terra, a mesma de que eles haviam sido feitos. Ele os tirou do jardim e deixou um anjo querubim de guarda no lado leste e uma espada de fogo, se movendo de um lado para o outro, guardando o caminho que leva à Árvore da Vida."
+  }
+]

@@ -1,1 +1,47 @@
-[{"title": "A ARCA", "number": "1-5", "content": "Bezalel fez a arca de madeira de acácia, medindo um metro e dez centímetros de comprimento, setenta centímetros de largura e setenta centímetros de altura. Revestiu-a de ouro puro por dentro e por fora e fez ao seu redor uma moldura de ouro. Fundiu quatro argolas de ouro, prendendo-as aos quatro pés, sendo duas argolai de um lado e duas do outro. Fez também varões de madeira de acácia, revestiu-os com ouro e os introduziu nas argolas dos lados da arca, para o transporte."}, {"title": "", "number": "6", "content": "Em seguida, fez uma cobertura de ouro puro para a arca, a tampa da expiação, quê media um metro e dez centímetros de comprimento por setenta centímetros de largura."}, {"title": "", "number": "7-9", "content": "Com ouro batido, esculpiu dois querubins com asas para as extremidades da tampa da expiação, posicionando um anjo numa ponta e outro anjo na outra. Os dois formavam uma só peça com a tampa. Os anjos tinham as asas estendidas e pareciam pairar sobre a tampa da expiação, um de frente para o outro, mas olhando para baixo, na direção da tampa."}, {"title": "A MESA", "number": "10-15", "content": "Ele fez a mesa de madeira de acácia, medindo noventa centímetros de comprimento, quarenta e cinco de largura e setenta de altura. Revestiu-a com ouro puro, aplicando ao seu redor uma moldura de ouro. Fez por toda a sua volta uma borda de quatro dedos de largura com um arremate de ouro em torno dela. Também fundiu quatro argolas de ouro para ela, prendendo-as às pernas da mesa em paralelo com o tampo, para servir de encaixe aos varões usados no transporte. Ele fez varões de madeira de acácia e os revestiu com ouro, para o transporte da mesa."}, {"title": "", "number": "16", "content": "Os utensílios da mesa eram de ouro puro: os pratos, as tigelas, os potes e as jarras usadas para derramar ofertas."}, {"title": "O CANDELABRO", "number": "17-23", "content": "Ele fez de ouro puro e batido um candelabro com haste e braços, taças, botões e pétalas, tudo formando uma só peça. O candelabro tinha seis braços, três de um lado e três do outro; três taças em forma de flor de amêndoa com botões e pétalas num braço, três no braço seguinte, e assim por diante, nos seis braços. Na haste principal do candelabro, havia quatro taças em forma de amêndoa, com botões e pétalas, cada botão saindo de cada par dos seis braços. O candelabro inteiro, com seus botões e hastes, formava uma única peça de ouro puro e batido. Bezalel fez sete candelabros como esse, com seus apagadores, tudo de ouro puro."}, {"title": "", "number": "24", "content": "Ele usou uma barra de ouro puro de trinta e cinco quilos para fazer o candelabro e seus acessórios."}, {"title": "O ALTAR DO INCENSO", "number": "25-28", "content": "Ele fez um altar quadrado de madeira de acácia para queimar incenso, medindo quarenta e cinco centímetros de cada lado e noventa de altura. As pontas do altar do incenso formavam uma só peça com ele. O altar foi revestido com ouro puro — a parte de cima, as laterais e as pontas. Em torno dele, foi feita uma moldura de ouro com duas argolas, também de ouro, abaixo da moldura. Ele pôs as argolas em lados opostos para receberem os varões que seriam usados no transporte do altar. Os varões foram feitos de madeira de acácia e revestidos com ouro."}, {"title": "", "number": "29", "content": "Preparou também, pelas mãos de um perfumista, o óleo sagrado da unção e o incenso puro aromático."}]
+[
+  {
+    "title": "A ARCA",
+    "number": "1-5",
+    "content": "Bezalel fez a arca de madeira de acácia, medindo um metro e dez centímetros de comprimento, setenta centímetros de largura e setenta centímetros de altura. Revestiu-a de ouro puro por dentro e por fora e fez ao seu redor uma moldura de ouro. Fundiu quatro argolas de ouro, prendendo-as aos quatro pés, sendo duas argolai de um lado e duas do outro. Fez também varões de madeira de acácia, revestiu-os com ouro e os introduziu nas argolas dos lados da arca, para o transporte."
+  },
+  {
+    "title": "",
+    "number": "6",
+    "content": "Em seguida, fez uma cobertura de ouro puro para a arca, a tampa da expiação, quê media um metro e dez centímetros de comprimento por setenta centímetros de largura."
+  },
+  {
+    "title": "",
+    "number": "7-9",
+    "content": "Com ouro batido, esculpiu dois querubins com asas para as extremidades da tampa da expiação, posicionando um anjo numa ponta e outro anjo na outra. Os dois formavam uma só peça com a tampa. Os anjos tinham as asas estendidas e pareciam pairar sobre a tampa da expiação, um de frente para o outro, mas olhando para baixo, na direção da tampa."
+  },
+  {
+    "title": "A MESA",
+    "number": "10-15",
+    "content": "Ele fez a mesa de madeira de acácia, medindo noventa centímetros de comprimento, quarenta e cinco de largura e setenta de altura. Revestiu-a com ouro puro, aplicando ao seu redor uma moldura de ouro. Fez por toda a sua volta uma borda de quatro dedos de largura com um arremate de ouro em torno dela. Também fundiu quatro argolas de ouro para ela, prendendo-as às pernas da mesa em paralelo com o tampo, para servir de encaixe aos varões usados no transporte. Ele fez varões de madeira de acácia e os revestiu com ouro, para o transporte da mesa."
+  },
+  {
+    "title": "",
+    "number": "16",
+    "content": "Os utensílios da mesa eram de ouro puro: os pratos, as tigelas, os potes e as jarras usadas para derramar ofertas."
+  },
+  {
+    "title": "O CANDELABRO",
+    "number": "17-23",
+    "content": "Ele fez de ouro puro e batido um candelabro com haste e braços, taças, botões e pétalas, tudo formando uma só peça. O candelabro tinha seis braços, três de um lado e três do outro; três taças em forma de flor de amêndoa com botões e pétalas num braço, três no braço seguinte, e assim por diante, nos seis braços. Na haste principal do candelabro, havia quatro taças em forma de amêndoa, com botões e pétalas, cada botão saindo de cada par dos seis braços. O candelabro inteiro, com seus botões e hastes, formava uma única peça de ouro puro e batido. Bezalel fez sete candelabros como esse, com seus apagadores, tudo de ouro puro."
+  },
+  {
+    "title": "",
+    "number": "24",
+    "content": "Ele usou uma barra de ouro puro de trinta e cinco quilos para fazer o candelabro e seus acessórios."
+  },
+  {
+    "title": "O ALTAR DO INCENSO",
+    "number": "25-28",
+    "content": "Ele fez um altar quadrado de madeira de acácia para queimar incenso, medindo quarenta e cinco centímetros de cada lado e noventa de altura. As pontas do altar do incenso formavam uma só peça com ele. O altar foi revestido com ouro puro — a parte de cima, as laterais e as pontas. Em torno dele, foi feita uma moldura de ouro com duas argolas, também de ouro, abaixo da moldura. Ele pôs as argolas em lados opostos para receberem os varões que seriam usados no transporte do altar. Os varões foram feitos de madeira de acácia e revestidos com ouro."
+  },
+  {
+    "title": "",
+    "number": "29",
+    "content": "Preparou também, pelas mãos de um perfumista, o óleo sagrado da unção e o incenso puro aromático."
+  }
+]

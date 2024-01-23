@@ -1,1 +1,67 @@
-[{"title": "", "number": "1-3", "content": "O Eterno disse a Moisés: “Agora, vá! É hora de partir. Você e o povo que você tirou da terra do Egito dirijam-se à terra que prometi a Abraão, Isaque e Jacó, dizendo: ‘Eu a darei a seus descendentes’. Enviarei um anjo à sua frente e expulsarei os cananeus, os amorreus, os hititas, os ferezeus, os heveus e os jebuseus. É uma terra em que manam leite e mel. Mas não estarei com vocês pessoalmente, porque vocês são um povo obstinado, e posso me sentir tentado a destruí-los no caminho”."}, {"title": "", "number": "4", "content": "Quando o povo ficou sabendo desse duro veredito, todos ficaram tristes e abatidos. Não quiseram mais nem usar suas joias."}, {"title": "", "number": "5-6", "content": "E o Eterno disse a Moisés: “Diga aos israelitas o seguinte: ‘Vocês são um povo teimoso. Eu não poderia acompanhar vocês nem por um minuto, pois sei que os destruiria. Portanto, tirem todas as joias enquanto resolvo o que faço com vocês’”. Assim, do monte Horebe em diante, os israelitas deixaram de usar joias."}, {"title": "", "number": "7-10", "content": "Moisés costumava armar a Tenda fora do acampamento, a certa distância dele. Ele a chamava Tenda do Encontro. Quem quisesse consultar o Eterno se dirigia à Tenda do Encontro, fora do acampamento. Era assim: quando Moisés ia para a Tenda, todo o povo ficava observando. Os homens ficavam à entrada da sua tenda, olhando para Moisés, até que ele entrasse na Tenda do Encontro. Assim que ele entrava, a coluna de nuvem descia sobre a entrada da Tenda, e o Eterno falava com Moisés. Todo o povo via a coluna de nuvem na entrada da Tenda, observava com atenção e se curvava para adorar. Cada homem que estivesse à entrada da sua tenda fazia isso."}, {"title": "", "number": "11", "content": "E o Eterno falava com Moisés face a face, como um vizinho fala com o outro por cima da cerca. Moisés voltava para o acampamento, mas o jovem Josué, seu auxiliar, não deixava a Tenda."}, {"title": "", "number": "12-13", "content": "Moisés disse ao Eterno: “Tu me dizes: ‘Conduza este povo’, mas não me deixas saber quem enviarás comigo. Tu me dizes: ‘Conheço você muito bem, e você é especial para mim. Se sou assim tão especial para ti, permite que eu tome conhecimento dos teus planos. Assim, continuarei sendo especial para ti. Não te esqueças de que este é o teu povo, tua responsabilidade”."}, {"title": "", "number": "14", "content": "O Eterno respondeu: “Minha presença irá com você. Eu me encarregarei da viagem até o fim”."}, {"title": "", "number": "15-16", "content": "Moisés não concordou: “Se tua presença não assumir a liderança aqui, cancela agora mesmo a viagem. De que outra forma se poderia saber que estás comigo nisso, comigo e com teu povo? Quero saber: viajarás conosco ou não? De que outra forma saberemos que somos especiais, eu e teu povo, entre todos os outros povos da terra?”."}, {"title": "", "number": "17", "content": "O Eterno respondeu a Moisés: “Está bem. Será como você disse. Eu também farei isso, pois conheço você muito bem, e você é especial para mim. Eu conheço você pelo nome”."}, {"title": "", "number": "18", "content": "Moisés, então, disse: “Por favor, permita que eu veja a tua glória”."}, {"title": "", "number": "19", "content": "O Eterno respondeu: “Farei passar minha bondade diante de você. Pronunciarei o nome, o Eterno, bem na sua frente. Tratarei bem os que eu quiser tratar bem e serei bom com quem eu quiser ser bom”."}, {"title": "", "number": "20", "content": "O Eterno continuou: “Mas você não poderá ver meu rosto. Ninguém pode me ver e continuar vivo”."}, {"title": "", "number": "21-23", "content": "O Eterno disse: “Há um lugar aqui do meu lado. Fique em cima desta rocha. Quando a minha glória passar, porei você na fenda da rocha e o cobrirei com a mão até que eu termine de passar. Então, tirarei a mão, e você me verá pelas costas. Mas não verá o meu rosto”."}]
+[
+  {
+    "title": "",
+    "number": "1-3",
+    "content": "O Eterno disse a Moisés: “Agora, vá! É hora de partir. Você e o povo que você tirou da terra do Egito dirijam-se à terra que prometi a Abraão, Isaque e Jacó, dizendo: ‘Eu a darei a seus descendentes’. Enviarei um anjo à sua frente e expulsarei os cananeus, os amorreus, os hititas, os ferezeus, os heveus e os jebuseus. É uma terra em que manam leite e mel. Mas não estarei com vocês pessoalmente, porque vocês são um povo obstinado, e posso me sentir tentado a destruí-los no caminho”."
+  },
+  {
+    "title": "",
+    "number": "4",
+    "content": "Quando o povo ficou sabendo desse duro veredito, todos ficaram tristes e abatidos. Não quiseram mais nem usar suas joias."
+  },
+  {
+    "title": "",
+    "number": "5-6",
+    "content": "E o Eterno disse a Moisés: “Diga aos israelitas o seguinte: ‘Vocês são um povo teimoso. Eu não poderia acompanhar vocês nem por um minuto, pois sei que os destruiria. Portanto, tirem todas as joias enquanto resolvo o que faço com vocês’”. Assim, do monte Horebe em diante, os israelitas deixaram de usar joias."
+  },
+  {
+    "title": "",
+    "number": "7-10",
+    "content": "Moisés costumava armar a Tenda fora do acampamento, a certa distância dele. Ele a chamava Tenda do Encontro. Quem quisesse consultar o Eterno se dirigia à Tenda do Encontro, fora do acampamento. Era assim: quando Moisés ia para a Tenda, todo o povo ficava observando. Os homens ficavam à entrada da sua tenda, olhando para Moisés, até que ele entrasse na Tenda do Encontro. Assim que ele entrava, a coluna de nuvem descia sobre a entrada da Tenda, e o Eterno falava com Moisés. Todo o povo via a coluna de nuvem na entrada da Tenda, observava com atenção e se curvava para adorar. Cada homem que estivesse à entrada da sua tenda fazia isso."
+  },
+  {
+    "title": "",
+    "number": "11",
+    "content": "E o Eterno falava com Moisés face a face, como um vizinho fala com o outro por cima da cerca. Moisés voltava para o acampamento, mas o jovem Josué, seu auxiliar, não deixava a Tenda."
+  },
+  {
+    "title": "",
+    "number": "12-13",
+    "content": "Moisés disse ao Eterno: “Tu me dizes: ‘Conduza este povo’, mas não me deixas saber quem enviarás comigo. Tu me dizes: ‘Conheço você muito bem, e você é especial para mim. Se sou assim tão especial para ti, permite que eu tome conhecimento dos teus planos. Assim, continuarei sendo especial para ti. Não te esqueças de que este é o teu povo, tua responsabilidade”."
+  },
+  {
+    "title": "",
+    "number": "14",
+    "content": "O Eterno respondeu: “Minha presença irá com você. Eu me encarregarei da viagem até o fim”."
+  },
+  {
+    "title": "",
+    "number": "15-16",
+    "content": "Moisés não concordou: “Se tua presença não assumir a liderança aqui, cancela agora mesmo a viagem. De que outra forma se poderia saber que estás comigo nisso, comigo e com teu povo? Quero saber: viajarás conosco ou não? De que outra forma saberemos que somos especiais, eu e teu povo, entre todos os outros povos da terra?”."
+  },
+  {
+    "title": "",
+    "number": "17",
+    "content": "O Eterno respondeu a Moisés: “Está bem. Será como você disse. Eu também farei isso, pois conheço você muito bem, e você é especial para mim. Eu conheço você pelo nome”."
+  },
+  {
+    "title": "",
+    "number": "18",
+    "content": "Moisés, então, disse: “Por favor, permita que eu veja a tua glória”."
+  },
+  {
+    "title": "",
+    "number": "19",
+    "content": "O Eterno respondeu: “Farei passar minha bondade diante de você. Pronunciarei o nome, o Eterno, bem na sua frente. Tratarei bem os que eu quiser tratar bem e serei bom com quem eu quiser ser bom”."
+  },
+  {
+    "title": "",
+    "number": "20",
+    "content": "O Eterno continuou: “Mas você não poderá ver meu rosto. Ninguém pode me ver e continuar vivo”."
+  },
+  {
+    "title": "",
+    "number": "21-23",
+    "content": "O Eterno disse: “Há um lugar aqui do meu lado. Fique em cima desta rocha. Quando a minha glória passar, porei você na fenda da rocha e o cobrirei com a mão até que eu termine de passar. Então, tirarei a mão, e você me verá pelas costas. Mas não verá o meu rosto”."
+  }
+]
