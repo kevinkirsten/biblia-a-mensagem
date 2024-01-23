@@ -4,10 +4,10 @@ export interface BibleBook {
   chaptersCount: number;
 }
 
-export interface Chapter {
+/*export interface Chapter {
   number: string;
   verses: Verse[];
-}
+}*/
 
 export interface Verse {
   title: string;
