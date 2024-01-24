@@ -44,13 +44,13 @@ export default function Verses({
             isCopied={copiedVerse === verse.number}
           />
         ))}
-        <BottomVerseNavigation
-          book={book}
-          chapter={chapter}
-          nextBookExists={nextBookExists}
-          previousBookExists={previousBookExists}
-        />
       </article>
+      <BottomVerseNavigation
+        book={book}
+        chapter={chapter}
+        nextBookExists={nextBookExists}
+        previousBookExists={previousBookExists}
+      />
     </>
   );
 }

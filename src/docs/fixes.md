@@ -1,5 +1,7 @@
 ## Last Fixes (First are the most recent)
-- [] Mateus 11:7-10
+
+- [x] Salmos 11:4-6
+- [x] Mateus 11:7-10
 - [x] Mateus 4:18-20
 - [x] Mateus 5:1-2
 - [x] Mateus 5:48
