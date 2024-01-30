@@ -1,5 +1,10 @@
 ## Last Fixes (First are the most recent)
 
+- [ ] Mateus 14:17-21
+- [ ] Mateus 13:40-43
+- [ ] Mateus 13:44
+- [ ] Mateus 13:53-57
+- [x] Filipenses 4:6-7
 - [x] Salmos 11:4-6
 - [x] Mateus 11:7-10
 - [x] Mateus 4:18-20
