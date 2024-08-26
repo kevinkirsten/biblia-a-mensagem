@@ -31,7 +31,7 @@ export default function Page({ params }: { params: { book: string } }) {
 
   return (
     <div>
-      <h1 className="text-center text-xl font-semibold tracking-tight dark:text-white sm:text-2xl">
+      <h1 className="text-center text-2xl font-bold leading-none tracking-tight sm:text-2xl">
         {book.title}
       </h1>
       <br />
@@ -41,7 +41,7 @@ export default function Page({ params }: { params: { book: string } }) {
           <li
             key={`${book?.title}-${idx}`}
             className={clsx(
-              "group relative w-24 rounded-lg border bg-white px-4 py-2 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 hover:bg-gray-200 dark:border-gray-700 dark:bg-gray-900 dark:focus-within:ring-indigo-500 dark:hover:bg-gray-700"
+              "group relative w-24 rounded-lg border bg-white px-4 py-2 focus-within:ring-2 focus-within:ring-inset focus-within:ring-primary hover:bg-gray-200 dark:border-gray-700 dark:bg-gray-900 dark:focus-within:ring-primary dark:hover:bg-gray-700"
             )}
           >
             <div className="mt-1">

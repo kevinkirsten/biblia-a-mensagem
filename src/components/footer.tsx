@@ -3,7 +3,7 @@
 import { useNavigationContext } from "@/contexts/NavigationContext";
 import Link from "next/link";
 import { SVGProps } from "react";
-import { Button } from "@/components/Button";
+import { Button } from "@/components/ui/button";
 
 const GitHubIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg fill="currentColor" viewBox="0 0 24 24" {...props}>

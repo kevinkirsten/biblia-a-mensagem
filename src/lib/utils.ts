@@ -1,6 +1,8 @@
 import { type ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 import { AllBibleBooks } from "@/data/bible-books";
+import { z } from "zod";
+import { ReportFormSchema } from "@/lib/types";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -38,4 +40,25 @@ export async function copyTextToClipboard(text: string) {
   } else {
     return document.execCommand("copy", true, text);
   }
+}
+
+export function createSubmitFormData(data: z.infer<typeof ReportFormSchema>) {
+  if (data.verse === "none") {
+    data.verse = "";
+  }
+
+  const formData = new FormData();
+
+  Object.keys(data).forEach((key) => {
+    const value = data[key as keyof typeof data];
+    if (key !== "screenshot") {
+      formData.append(key, value as string);
+    }
+  });
+
+  if (data.screenshot) {
+    formData.append("screenshot", data.screenshot);
+  }
+
+  return formData;
 }

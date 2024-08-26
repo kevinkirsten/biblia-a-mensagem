@@ -22,7 +22,7 @@ export default function ThemeToggle({
         setTheme(lightTheme ? "dark" : "light");
       }}
       className={cn(
-        "group relative flex items-center gap-2 rounded-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:focus-visible:outline-indigo-500",
+        "group relative flex items-center gap-2 rounded-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary dark:focus-visible:outline-primary",
         className
       )}
     >

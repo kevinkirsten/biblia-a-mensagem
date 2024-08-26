@@ -1,5 +1,5 @@
 import "@/app/globals.css";
-import Footer from "@/components/Footer";
+import Footer from "@/components/footer";
 import Header from "@/components/Header";
 import Providers from "@/providers";
 import type { Metadata } from "next";
@@ -7,6 +7,7 @@ import { Inter } from "next/font/google";
 import { ReactNode } from "react";
 import clsx from "clsx";
 import Script from "next/script";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
@@ -36,22 +37,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           })(window, document, "clarity", "script", "${process.env.NEXT_PUBLIC_MICROSOFT_CLARITY_PROJECT_ID}");`,
         }}
       />
-      <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}`}
-        strategy="afterInteractive"
-      />
-      <Script
-        id="google-analytics"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}');
-          `,
-        }}
-      />
+      <GoogleAnalytics gaId={`${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}`} />
       <body
         className={clsx(
           inter.className,

@@ -1,4 +1,9 @@
-export const BibleBooks = {
+import { BibleBook } from "@/lib/types";
+
+export const BibleBooks: {
+  oldTestament: BibleBook[];
+  newTestament: BibleBook[];
+} = {
   oldTestament: [
     { title: "Gênesis", normalizedTitle: "genesis", chaptersCount: 50 },
     { title: "Êxodo", normalizedTitle: "exodo", chaptersCount: 40 },

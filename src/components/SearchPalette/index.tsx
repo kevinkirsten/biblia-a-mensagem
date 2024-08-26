@@ -42,7 +42,7 @@ export default function SearchPalette({
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <div className="fixed inset-0 bg-gray-500 bg-opacity-25 backdrop-blur transition-opacity" />
+          <div className="fixed inset-0 bg-black/80 transition-opacity" />
         </Transition.Child>
 
         <div className="fixed inset-0 z-10 mt-12 overflow-y-auto p-4 sm:mt-10 sm:p-6 md:mt-0 md:p-20">
@@ -69,7 +69,7 @@ export default function SearchPalette({
                   />
                   <Combobox.Input
                     className="h-12 w-full border-0 bg-transparent pl-11 pr-4 text-gray-900 placeholder:text-gray-400 focus:ring-0 dark:text-white sm:text-sm"
-                    placeholder="Search..."
+                    placeholder="Pesquisar livro..."
                     onChange={(event) => setQuery(event.target.value)}
                   />
                 </div>

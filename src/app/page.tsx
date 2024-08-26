@@ -17,7 +17,7 @@ function BibleBooksList({ books }: { books: BibleBook[] }) {
         <li
           key={book.title}
           className={clsx(
-            "group relative border-x border-t bg-white px-4 py-2 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 hover:bg-gray-200 dark:border-gray-700 dark:bg-gray-900 dark:focus-within:ring-indigo-500 dark:hover:bg-gray-700",
+            "group relative border-x border-t bg-white px-4 py-2 focus-within:ring-2 focus-within:ring-inset focus-within:ring-primary hover:bg-gray-200 dark:border-gray-700 dark:bg-gray-900 dark:focus-within:ring-primary dark:hover:bg-gray-700",
             { "rounded-t-lg": bookIdx === 0 },
             {
               "rounded-b-lg border-b": bookIdx === books.length - 1,
@@ -51,13 +51,13 @@ export default function Inicio() {
   return (
     <div className="flex w-full flex-col justify-center gap-4 sm:flex-row">
       <div className="flex w-full flex-col gap-4">
-        <h3 className="text-center text-xl font-semibold sm:text-2xl">
+        <h3 className="text-center text-xl font-bold sm:text-2xl">
           Antigo Testamento
         </h3>
         <BibleBooksList books={BibleBooks.oldTestament} />
       </div>
       <div className="flex w-full flex-col gap-4">
-        <h3 className="text-center text-xl font-semibold sm:text-2xl">
+        <h3 className="text-center text-xl font-bold sm:text-2xl">
           Novo Testamento
         </h3>
         <BibleBooksList books={BibleBooks.newTestament} />

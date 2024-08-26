@@ -1,15 +1,18 @@
-import { BibleBook } from "@/lib/types";
-import { Button } from "@/components/Button";
+import { BibleBook, Verse } from "@/lib/types";
 import { ArrowUpToLine } from "lucide-react";
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { ReportDialog } from "@/components/ReportDialog";
 
 export default function BottomVerseNavigation({
   book,
+  verses,
   chapter,
   previousBookExists,
   nextBookExists,
 }: {
   book: BibleBook;
+  verses: Verse[];
   chapter: number;
   previousBookExists: boolean;
   nextBookExists: boolean;
@@ -27,7 +30,7 @@ export default function BottomVerseNavigation({
 
   return (
     <nav
-      className="flex flex-col items-start justify-between gap-2 rounded-b-lg border-t border-gray-200 bg-white px-4 py-3 dark:border-gray-700 dark:bg-gray-900 sm:flex-row sm:items-center sm:gap-0 sm:px-6"
+      className="flex flex-col items-start justify-between gap-2 sm:flex-row sm:items-center sm:gap-0"
       aria-label="Pagination"
     >
       <div className="sm:block">
@@ -36,21 +39,28 @@ export default function BottomVerseNavigation({
           <span className="font-medium">{book?.chaptersCount}</span>
         </p>
       </div>
-      <div className="flex w-full flex-1 justify-between gap-2 sm:justify-end">
-        <Button
-          variant="outline"
-          title="Voltar para o topo"
-          onClick={scrollToTop}
-        >
-          <ArrowUpToLine className="h-5 w-5" />
-        </Button>
-        <div className="flex gap-2">
-          <Button variant="outline" disabled={!previousBookExists}>
-            <Link href={previousBookUrl}>Anterior</Link>
-          </Button>
-          <Button variant="outline" disabled={!nextBookExists}>
-            <Link href={nextBookUrl}>Próximo</Link>
-          </Button>
+      <div className="flex w-full flex-1 flex-col justify-between gap-2 sm:flex-row sm:justify-end">
+        <div className="flex w-full flex-1 sm:justify-end">
+          <ReportDialog book={book} chapter={chapter} verses={verses} />
+        </div>
+        <div className="flex justify-between gap-2">
+          <div>
+            <Button
+              variant="outline"
+              title="Voltar para o topo"
+              onClick={scrollToTop}
+            >
+              <ArrowUpToLine className="h-5 w-5" />
+            </Button>
+          </div>
+          <div className="flex gap-2">
+            <Button variant="outline" disabled={!previousBookExists}>
+              <Link href={previousBookUrl}>Anterior</Link>
+            </Button>
+            <Button variant="outline" disabled={!nextBookExists}>
+              <Link href={nextBookUrl}>Próximo</Link>
+            </Button>
+          </div>
         </div>
       </div>
     </nav>

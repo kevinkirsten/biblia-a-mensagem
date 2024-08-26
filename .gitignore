@@ -36,3 +36,6 @@ next-env.d.ts
 
 # IDE
 /.idea
+
+# google cloud
+secrets.json

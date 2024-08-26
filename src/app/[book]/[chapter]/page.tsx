@@ -1,15 +1,18 @@
-import { findBookByNormalizedTitle } from "@/lib/utils";
-import * as fs from "fs";
-import { AllBibleBooks, BibleBooks } from "@/data/bible-books";
-import { BibleBook, Verse } from "@/lib/types";
 import path from "path";
+import * as fs from "fs";
+import Link from "next/link";
 import Verses from "@/components/Verses";
+import { BibleBook, Verse } from "@/lib/types";
+import { findBookByNormalizedTitle } from "@/lib/utils";
+import { AllBibleBooks, BibleBooks } from "@/data/bible-books";
 
 export async function generateMetadata({ params }: { params: VerseParams }) {
   const book = findBookByNormalizedTitle(params.book);
+  const bookShortTitle = `${book?.title} ${params.chapter}`;
   return {
-    title: `${book?.title} ${params.chapter}`,
-    description: `Leia ${book?.title} ${params.chapter} na Bíblia A Mensagem online. Navegue pelos versículos e capítulos para encontrar orientação e inspiração nas palavras de Deus.`,
+    title: `${bookShortTitle} - A Mensagem (MSG)`,
+    description: `Leia ${bookShortTitle} na tradução A Mensagem (MSG) na Bíblia A Mensagem Online. Descubra ensinamentos e inspirações neste capítulo específico.`,
+    keywords: `${bookShortTitle}, ${bookShortTitle} a mensagem, ${bookShortTitle} msg, ${bookShortTitle} tradução a mensagem, ${bookShortTitle} MSG, ${bookShortTitle} bíblia a mensagem, ${bookShortTitle} bíblia msg, ${bookShortTitle} bíblia tradução a mensagem`,
   };
 }
 
@@ -68,8 +71,11 @@ export default async function Page({ params }: { params: VerseParams }) {
 
   return (
     <div>
-      <h1 className="flex items-center justify-center gap-4 text-center text-xl font-semibold tracking-tight dark:text-white sm:text-2xl">
-        <span>{book?.title}</span>
+      <h1 className="flex items-center justify-center gap-4 text-center text-xl font-bold tracking-tight dark:text-white sm:text-2xl">
+        <span>
+          <Link href={`/${book.normalizedTitle}`}>{book.title}</Link>
+        </span>
+
         <div className="h-max w-px bg-gray-500">&nbsp;</div>
         <span className="sm:text-md text-center text-base font-medium tracking-tight dark:text-white">
           Capítulo {params.chapter}

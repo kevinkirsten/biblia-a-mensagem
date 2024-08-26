@@ -1,10 +1,12 @@
-import { Fragment } from "react";
-import { Dialog, Transition } from "@headlessui/react";
+import clsx from "clsx";
 import Link from "next/link";
+import { Fragment } from "react";
 import { X } from "lucide-react";
 import ThemeToggle from "../ThemeToggle";
+import AnimatePing from "@/components/animate-ping";
+import { Dialog, Transition } from "@headlessui/react";
 import { useNavigationContext } from "@/contexts/NavigationContext";
-import clsx from "clsx";
+import { useCookies } from "react-cookie";
 
 export default function Sidebar({
   sidebarOpen,
@@ -14,6 +16,17 @@ export default function Sidebar({
   closeSidebar: () => void;
 }) {
   const { navigation } = useNavigationContext();
+
+  const [cookies, setCookie] = useCookies([
+    "visited_about_page",
+    "visited_contribute_page",
+  ]);
+
+  const showPingInAboutPage = (title: string) =>
+    title === "Contribuir" && !cookies.visited_contribute_page;
+  const showPingInContributePage = (title: string) =>
+    title === "Sobre" && !cookies.visited_about_page;
+
   return (
     <Transition.Root show={sidebarOpen} as={Fragment}>
       <Dialog
@@ -49,7 +62,7 @@ export default function Sidebar({
                   <div className="flex items-center justify-between">
                     <Link
                       href="/"
-                      className="flex flex-shrink-0 items-center gap-2 rounded-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:focus-visible:outline-indigo-500"
+                      className="flex flex-shrink-0 items-center gap-2 rounded-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary dark:focus-visible:outline-primary"
                     >
                       <img
                         className="h-8 w-auto"
@@ -77,13 +90,17 @@ export default function Sidebar({
                             key={item.title}
                             href={item.href}
                             className={clsx(
-                              "-mx-3 flex items-center gap-2 rounded-lg px-3 py-2 text-base font-medium leading-7 text-gray-900 hover:bg-gray-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:text-white dark:hover:bg-gray-800 dark:focus-visible:outline-indigo-500",
+                              "-mx-3 flex items-center gap-2 rounded-lg px-3 py-2 text-base font-medium leading-7 text-gray-900 hover:bg-gray-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary dark:text-white dark:hover:bg-gray-800 dark:focus-visible:outline-primary",
                               { "bg-gray-100 dark:bg-gray-800": item.current }
                             )}
                             onClick={closeSidebar}
                           >
                             <item.icon className="h-5 w-5" />
                             {item.title}
+                            {showPingInAboutPage(item.title) && <AnimatePing />}
+                            {showPingInContributePage(item.title) && (
+                              <AnimatePing />
+                            )}
                           </Link>
                         ))}
                       </div>
