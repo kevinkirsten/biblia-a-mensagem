@@ -35,7 +35,7 @@ const affiliateProducts = [
     url: "https://amzn.to/4egrew3",
   },
   {
-    title: "Biblia de Estudo a Mensagem - Capa Luxo Azul e Bege com Índice",
+    title: "Bíblia de Estudo a Mensagem - Capa Luxo Azul e Bege com Índice",
     imageUrl: "/amazon-products/biblia-azul-bege.png",
     url: "https://amzn.to/3T2Q9uG",
   },
