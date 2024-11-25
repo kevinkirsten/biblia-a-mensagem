@@ -39,6 +39,3 @@ next-env.d.ts
 
 # google cloud
 secrets.json
-
-# adsense
-/public/ads.txt
